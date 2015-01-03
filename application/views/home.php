@@ -89,11 +89,7 @@ $this->load->view('partial/header');
                 </div>
             </div>
         </div>
-        <div class="row clearfix">
-            <div class="col-md-12 column well well-sm">
-                <p class="text-center text-muted"> Sayuri &copy; 2014  &Tab;&Tab;&Tab;<a href="#">Site Map</a></p>
-            </div>
-        </div>
+        <?php $this->load->view('partial/page_footer'); ?>
     </div>
     <?php
     $this->load->view('partial/footer');

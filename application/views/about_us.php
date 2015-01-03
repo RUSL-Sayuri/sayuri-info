@@ -65,24 +65,28 @@ $this->load->view('partial/header');
                 ?>
             </h3>
             <p>
-               <?php
-               echo $vision_text;
-               ?>
+                <?php
+                echo $vision_text;
+                ?>
             </p>
         </div>
     </div>
     <div class="row clearfix">
         <div class="col-md-12 column">
             <h3>
-               <?php
-               echo $mission_title;
-               ?>
+                <?php
+                echo $mission_title;
+                ?>
             </h3>
             <p>
-               <?php
-               $mission_text;
-               ?>
+                <?php
+               echo $mission_text;
+                ?>
             </p>
         </div>
     </div>
+    <?php $this->load->view('partial/page_footer'); ?>
 </div>
+<?php
+$this->load->view('partial/footer');
+?>

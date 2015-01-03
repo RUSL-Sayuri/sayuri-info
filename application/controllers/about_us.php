@@ -32,7 +32,6 @@ class About_us extends CI_Controller {
             'vision_text'=>$this->lang->line('about_us_vision_text'),
             'mission_title'=>$this->lang->line('about_us_mission_title'),
             'mission_text'=>$this->lang->line('about_us_mission_text')            
-            
         );
         $this->load->view('about_us',$view_data);
         
