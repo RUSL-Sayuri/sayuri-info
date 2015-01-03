@@ -57,7 +57,7 @@
                 <a href="#">Join Us</a>
             </li>
             <li>
-                <a href="#">About Us</a>
+                <a href="<?php echo base_url('index.php/about_us'); ?>">About Us</a>
             </li>
         </ul>
         <form class="navbar-form navbar-left pull-right" role="search">
