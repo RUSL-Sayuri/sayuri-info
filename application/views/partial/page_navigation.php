@@ -8,7 +8,7 @@
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">About Autism<strong class="caret"></strong></a>
                 <ul class="dropdown-menu">
                     <li>
-                        <a href="#">What is Autism?</a>
+                        <a href="<?php echo base_url('index.php/what_is_autism'); ?>">What is Autism?</a>
                     </li>
                     <li>
                         <a href="#">Diagnosis</a>

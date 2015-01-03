@@ -7,6 +7,10 @@
             <div class="col-md-6 column">
                 <div class="page-header">
                     <h1>
+                        <?php
+                        $this->load->helper('cookie');
+                        echo $this->input->cookie('lang');
+                        ?>
                         Advocacy Web Portal <small></small>
                     </h1>
                 </div>
