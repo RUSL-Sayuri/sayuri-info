@@ -16,11 +16,8 @@ if (!defined('BASEPATH'))
 class What_is_autism extends CI_Controller {
 
     public function index() {
-        $this->en();
-    }
-
-    public function en() {
-        $this->lang->load('what_is_autism', 'english');
+        $language = $this->input->cookie('lang');
+        $this->lang->load('what_is_autism', $language);
         $view_data = array(
             'title' => $this->lang->line('what_is_autism_title'),
             'text_1' => $this->lang->line('what_is_autism_text_1'),
@@ -34,8 +31,9 @@ class What_is_autism extends CI_Controller {
             'text_5' => $this->lang->line('what_is_autism_text_5'),
             'title_2' => $this->lang->line('what_is_autism_title_2'),
             'text_6' => $this->lang->line('what_is_autism_text_6'),
+            'text_7' => $this->lang->line('what_is_autism_text_7'),
+            'text_8' => $this->lang->line('what_is_autism_text_8'),
         );
         $this->load->view('what_is_autism', $view_data);
     }
-
 }

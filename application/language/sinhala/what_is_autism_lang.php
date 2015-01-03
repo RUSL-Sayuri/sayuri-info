@@ -6,8 +6,8 @@
  * and open the template in the editor.
  */
 
-$lang['what_is_autism_title']="What is Autism Spectrum Disorder?";
-$lang['what_is_autism_text_1']="Autism Spectrum Disorder is a lifelong developmental disability that affects how a person communicates with, and relates to other people. It also affects how they make sense of the world around them.";
+$lang['what_is_autism_title']="ඔටිසම් යනු කුමක්ද?";
+$lang['what_is_autism_text_1']="Autism is a lifelong developmental disability that affects how a person communicates with, and relates to other people. It also affects how they make sense of the world around them.";
 $lang['what_is_autism_text_2']="The word 'spectrum' describes the range of difficulties that people with autism may experience and the degree to which they may be affected. Some people may be able to live relatively normal lives, while others may have an accompanying learning disability and require continued specialist support.";
 $lang['what_is_autism_text_3']="People on the autism spectrum may also have:";
 $lang['what_is_autism_ol_1_li_1']="Unusual sensory interests such as sniffing objects or staring intently at moving objects.";
