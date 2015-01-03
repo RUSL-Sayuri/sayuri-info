@@ -72,19 +72,19 @@ $this->load->view('partial/header');
             </div>
             <div class="col-md-3 column">
                 <div class="well well-sm">
-                    <h4 class="text-center">Become a Member</h4>
+                    <h4 class="text-center"><?php echo $become_a_member; ?></h4>
                     <img class="center-block img-rounded img-responsive" src="<?php echo base_url('assests/images/Sayuri_Logo_400_400.png'); ?>"/>
                 </div>
             </div>
             <div class="col-md-3 column">
                 <div class="well well-sm">
-                    <h4 class="text-center">About Autism</h4>
+                    <h4 class="text-center"><?php echo $about_autism; ?></h4>
                     <img class="center-block img-rounded img-responsive" src="<?php echo base_url('assests/images/Sayuri_Logo_400_400.png'); ?>"/>
                 </div>
             </div>
             <div class="col-md-3 column">
                 <div class="well well-sm">
-                    <h4 class="text-center">Resources</h4>
+                    <h4 class="text-center"><?php echo $resources; ?></h4>
                     <img class="center-block img-rounded img-responsive" src="<?php echo base_url('assests/images/Sayuri_Logo_400_400.png'); ?>"/>
                 </div>
             </div>

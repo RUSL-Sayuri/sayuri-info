@@ -16,29 +16,34 @@ if (!defined('BASEPATH'))
 class Home extends CI_Controller {
 
     public function index() {
-        $this->en();
+        $language = $this->input->cookie('lang');
+        $this->lang->load('home', $language);
+        $view_data = array(
+            'become_a_member' => $this->lang->line('home_become_a_member'),
+            'about_autism' => $this->lang->line('home_about_autism'),
+            'resources' => $this->lang->line('home_resources'),
+        );
+        $this->load->view('home', $view_data);
     }
 
     public function en() {
-        $this->set_langugage('en');
-        $view_data = array();
-        $this->load->view('home', $view_data);
+        $this->set_langugage('english');
+        $this->index();
     }
 
     public function si() {
-        $this->set_langugage('si');
-        $view_data = array();
-        $this->load->view('home', $view_data);
+        $this->set_langugage('sinhala');
+        $this->index();
     }
 
-    function set_langugage($language = "en") {
+    function set_langugage($language = "english") {
         $this->load->helper('cookie');
         $cookie = array(
             'name' => 'lang',
             'value' => $language,
-            'expire'=> 3600,
-            'domain'=> NULL,
-            'path'=>'/'
+            'expire' => 3600,
+            'domain' => NULL,
+            'path' => '/'
         );
         $this->input->set_cookie($cookie);
     }

@@ -8,10 +8,11 @@
                 <div class="page-header">
                     <h1>
                         <?php
-                        $this->load->helper('cookie');
-                        echo $this->input->cookie('lang');
+                        $language = $this->input->cookie('lang');
+                        $this->lang->load('header', $language);
+                        echo $this->lang->line('header_page_title');
                         ?>
-                        Advocacy Web Portal <small></small>
+                        <small></small>
                     </h1>
                 </div>
             </div>
