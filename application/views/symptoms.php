@@ -11,7 +11,9 @@ $this->load->view('partial/header');
     <div class="row clearfix">
         <div class="col-md-12 column">
             <p>
-                <?php echo $text_1; ?>
+                <?php echo $text_1; 
+                echo 'h';
+                ?>
             </p>
         </div>
     </div>
