@@ -14,7 +14,7 @@
                         <a href="#">Diagnosis</a>
                     </li>
                     <li>
-                        <a href="#">Symptoms</a>
+                        <a href="<?php echo base_url('index.php/symptoms'); ?>">Symptoms</a>
                     </li>
                     <li>
                         <a href="#">Learn the Signs</a>
