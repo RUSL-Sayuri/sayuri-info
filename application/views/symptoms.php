@@ -10,7 +10,7 @@ $this->load->view('partial/header');
     </div>
     <div class="row clearfix">
         <div class="col-md-12 column">
-            <p>
+            <p> 
                 <?php echo $text_1; ?>
             </p>
         </div>
