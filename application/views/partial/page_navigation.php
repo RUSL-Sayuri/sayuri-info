@@ -20,7 +20,7 @@
                         <a href="#">Learn the Signs</a>
                     </li>
                     <li>
-                        <a href="#">Treatments</a>
+                        <a href="<?php echo base_url('index.php/treatments'); ?>">Treatments</a>
                     </li>
                     <li>
                         <a href="#">Prevalence</a>
