@@ -12,7 +12,7 @@ $lang['symptoms_text_2'] = "People with autism often have difficulty recognising
 $lang['symptoms_text_3'] = "Difficulties with social interaction can mean that people with autism find it hard to form friendships: some may want to interact with other people and make friends, but may be unsure how to go about this.";
 $lang['symptoms_text_4'] = "Social imagination allows us to understand and predict other people's behaviour, make sense of abstract ideas, and to imagine situations outside our immediate daily routine. Difficulties with social imagination mean that people with autism, find it hard to:";
 $lang['symptoms_text_5'] = "People with autism may experience some form of sensory sensitivity which is either intensified (hypersensitive) or under-sensitive (hypo-sensitive). This can occur in one or more of the five senses - sight, sound, smell, touch and taste.";
-$lang['symptoms_text_6'] = "Add an introduction paragraph here.";
+$lang['symptoms_text_6'] = "Restricted and repetitive behaviors have long been recognized as a core symptom of autism.";
 
 $lang['symptoms_ul_1_li_1'] = "Not responding to their names when someone calls.";
 $lang['symptoms_ul_1_li_2'] = "Facial expressions or tone of voice.";
