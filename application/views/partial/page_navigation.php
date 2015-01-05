@@ -26,7 +26,7 @@
                         <a href="#">Prevalence</a>
                     </li>
                     <li>
-                        <a href="#">Asperger Syndrome</a>
+                        <a href="<?php echo base_url('index.php/asperger_syndrome'); ?>">Asperger Syndrome</a>
                     </li>
                 </ul>
             </li>
