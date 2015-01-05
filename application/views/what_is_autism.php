@@ -43,16 +43,16 @@ $this->load->view('partial/header');
             </p>
             <ul>
                 <li>
-                    <?php echo $ol_1_li_1; ?>
+                    <?php echo $ul_1_li_1; ?>
                 </li>
                 <li>
-                    <?php echo $ol_1_li_2; ?>
+                    <?php echo $ul_1_li_2; ?>
                 </li>
                 <li>
-                    <?php echo $ol_1_li_3; ?>
+                    <?php echo $ul_1_li_3; ?>
                 </li>
                 <li>
-                    <?php echo $ol_1_li_4; ?>
+                    <?php echo $ul_1_li_4; ?>
                 </li>
             </ul>
         </div>
