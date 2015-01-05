@@ -11,7 +11,7 @@
                         <a href="<?php echo base_url('index.php/what_is_autism'); ?>">What is Autism?</a>
                     </li>
                     <li>
-                        <a href="#">Diagnosis</a>
+                        <a href="<?php echo base_url('index.php/diagnosis'); ?>">Diagnosis</a>
                     </li>
                     <li>
                         <a href="<?php echo base_url('index.php/symptoms'); ?>">Symptoms</a>
