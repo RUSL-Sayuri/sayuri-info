@@ -46,139 +46,86 @@ $this->load->view('partial/header');
                         <?php echo $text_4; ?>
                     </p>
                     <ol>
-                        <li>
-                            Lorem ipsum dolor sit amet
-                        </li>
-                        <li>
-                            Consectetur adipiscing elit
-                        </li>
-                        <li>
-                            Integer molestie lorem at massa
-                        </li>
-                        <li>
-                            Facilisis in pretium nisl aliquet
-                        </li>
-                        <li>
-                            Nulla volutpat aliquam velit
-                        </li>
-                        <li>
-                            Faucibus porta lacus fringilla vel
-                        </li>
-                        <li>
-                            Aenean sit amet erat nunc
-                        </li>
-                        <li>
-                            Eget porttitor lorem
-                        </li>
+                        <li><?php echo $ol_1_li_1; ?></li>
+                        <li><?php echo $ol_1_li_2; ?></li>
+                        <li><?php echo $ol_1_li_3; ?></li>
                     </ol>
                     <p>
-                        Lorem ipsum dolor sit amet, <strong>consectetur adipiscing elit</strong>. Aliquam eget sapien sapien. Curabitur in metus urna. In hac habitasse platea dictumst. Phasellus eu sem sapien, sed vestibulum velit. Nam purus nibh, lacinia non faucibus et, pharetra in dolor. Sed iaculis posuere diam ut cursus. <em>Morbi commodo sodales nisi id sodales. Proin consectetur, nisi id commodo imperdiet, metus nunc consequat lectus, id bibendum diam velit et dui.</em> Proin massa magna, vulputate nec bibendum nec, posuere nec lacus. <small>Aliquam mi erat, aliquam vel luctus eu, pharetra quis elit. Nulla euismod ultrices massa, et feugiat ipsum consequat eu.</small>
+                        <?php echo $text_5; ?>
                     </p>
-                    <ol>
-                        <li>
-                            Lorem ipsum dolor sit amet
-                        </li>
-                        <li>
-                            Consectetur adipiscing elit
-                        </li>
-                        <li>
-                            Integer molestie lorem at massa
-                        </li>
-                        <li>
-                            Facilisis in pretium nisl aliquet
-                        </li>
-                        <li>
-                            Nulla volutpat aliquam velit
-                        </li>
-                        <li>
-                            Faucibus porta lacus fringilla vel
-                        </li>
-                        <li>
-                            Aenean sit amet erat nunc
-                        </li>
-                        <li>
-                            Eget porttitor lorem
-                        </li>
+                    <ol start="4">
+                        <li><?php echo $ol_2_li_1; ?></li><img src="<?php echo base_url('assests/images/info-portal/diagnosis_1.png'); ?>"/>
+                        <li><?php echo $ol_2_li_2; ?></li><img src="<?php echo base_url('assests/images/info-portal/diagnosis_2.png'); ?>"/>
+                        <li><?php echo $ol_2_li_3; ?></li><img src="<?php echo base_url('assests/images/info-portal/diagnosis_3.png'); ?>"/>
+                        <li><?php echo $ol_2_li_4; ?></li><img src="<?php echo base_url('assests/images/info-portal/diagnosis_4.png'); ?>"/>
+                        <li><?php echo $ol_2_li_5; ?></li>
                     </ol>
                 </div>
             </div>
             <div class="row clearfix">
                 <div class="col-md-12 column">
                     <h3>
-                        h3. Lorem ipsum dolor sit amet.
+                        <?php echo $title_3; ?>
                     </h3>
+                </div>
+            </div>
+            <div class="row clearfix">
+                <div class="col-md-9 column col-md-offset-1">
                     <p>
-                        Lorem ipsum dolor sit amet, <strong>consectetur adipiscing elit</strong>. Aliquam eget sapien sapien. Curabitur in metus urna. In hac habitasse platea dictumst. Phasellus eu sem sapien, sed vestibulum velit. Nam purus nibh, lacinia non faucibus et, pharetra in dolor. Sed iaculis posuere diam ut cursus. <em>Morbi commodo sodales nisi id sodales. Proin consectetur, nisi id commodo imperdiet, metus nunc consequat lectus, id bibendum diam velit et dui.</em> Proin massa magna, vulputate nec bibendum nec, posuere nec lacus. <small>Aliquam mi erat, aliquam vel luctus eu, pharetra quis elit. Nulla euismod ultrices massa, et feugiat ipsum consequat eu.</small>
+                        <?php echo $text_6; ?>
                     </p>
                     <ol>
-                        <li>
-                            Lorem ipsum dolor sit amet
-                        </li>
-                        <li>
-                            Consectetur adipiscing elit
-                        </li>
-                        <li>
-                            Integer molestie lorem at massa
-                        </li>
-                        <li>
-                            Facilisis in pretium nisl aliquet
-                        </li>
-                        <li>
-                            Nulla volutpat aliquam velit
-                        </li>
-                        <li>
-                            Faucibus porta lacus fringilla vel
-                        </li>
-                        <li>
-                            Aenean sit amet erat nunc
-                        </li>
-                        <li>
-                            Eget porttitor lorem
-                        </li>
+                        <li class="text-justify"><?php echo $ol_3_li_1; ?></li>
+                        <li class="text-justify"><?php echo $ol_3_li_2; ?></li>
+                        <li class="text-justify"><?php echo $ol_3_li_3; ?></li>
+                        <li class="text-justify"><?php echo $ol_3_li_4; ?></li>
+                        <li class="text-justify"><?php echo $ol_3_li_5; ?></li>
+                        <li class="text-justify"><?php echo $ol_3_li_6; ?></li>
                     </ol>
                 </div>
             </div>
             <div class="row clearfix">
                 <div class="col-md-12 column">
-                    <img alt="140x140" src="http://lorempixel.com/140/140/" />
+                    <img class="center-block img-rounded" height="250px" alt="140x140" src="<?php echo base_url('assests/images/info-portal/diagnosis_5.jpg'); ?>" />
                 </div>
             </div>
             <div class="row clearfix">
                 <div class="col-md-12 column">
                     <h3>
-                        h3. Lorem ipsum dolor sit amet.
+                        <?php echo $title_4; ?>
                     </h3>
-                    <p>
-                        Lorem ipsum dolor sit amet, <strong>consectetur adipiscing elit</strong>. Aliquam eget sapien sapien. Curabitur in metus urna. In hac habitasse platea dictumst. Phasellus eu sem sapien, sed vestibulum velit. Nam purus nibh, lacinia non faucibus et, pharetra in dolor. Sed iaculis posuere diam ut cursus. <em>Morbi commodo sodales nisi id sodales. Proin consectetur, nisi id commodo imperdiet, metus nunc consequat lectus, id bibendum diam velit et dui.</em> Proin massa magna, vulputate nec bibendum nec, posuere nec lacus. <small>Aliquam mi erat, aliquam vel luctus eu, pharetra quis elit. Nulla euismod ultrices massa, et feugiat ipsum consequat eu.</small>
+                </div>
+            </div>
+            <div class="row clearfix">
+                <div class="col-md-9 column col-md-offset-1">
+                    <p class="text-justify">
+                        <?php echo $text_7; ?>
                     </p>
                     <ol>
-                        <li>
-                            Lorem ipsum dolor sit amet
-                        </li>
-                        <li>
-                            Consectetur adipiscing elit
-                        </li>
-                        <li>
-                            Integer molestie lorem at massa
-                        </li>
-                        <li>
-                            Facilisis in pretium nisl aliquet
-                        </li>
-                        <li>
-                            Nulla volutpat aliquam velit
-                        </li>
-                        <li>
-                            Faucibus porta lacus fringilla vel
-                        </li>
-                        <li>
-                            Aenean sit amet erat nunc
-                        </li>
-                        <li>
-                            Eget porttitor lorem
-                        </li>
+                        <li class="text-justify"><?php echo $ol_4_li_1; ?></li>
+                        <li class="text-justify"><?php echo $ol_4_li_2; ?></li>
+                        <li class="text-justify"><?php echo $ol_4_li_3; ?></li>
+                        <li class="text-justify"><?php echo $ol_4_li_4; ?></li>
+                        <li class="text-justify"><?php echo $ol_4_li_5; ?></li>
+                        <li class="text-justify"><?php echo $ol_4_li_6; ?></li>
+                        <li class="text-justify"><?php echo $ol_4_li_7; ?></li>
+                        <li class="text-justify"><?php echo $ol_4_li_8; ?></li>
+                        <li class="text-justify"><?php echo $ol_4_li_9; ?></li>
+                        <li class="text-justify"><?php echo $ol_4_li_10; ?></li>
+                        <li class="text-justify"><?php echo $ol_4_li_11; ?></li>
+                        <li class="text-justify"><?php echo $ol_4_li_12; ?></li>
+                        <li class="text-justify"><?php echo $ol_4_li_13; ?></li>
+                        <li class="text-justify"><?php echo $ol_4_li_14; ?></li>
+                        <li class="text-justify"><?php echo $ol_4_li_15; ?></li>
+                        <li class="text-justify"><?php echo $ol_4_li_16; ?></li>
+                        <li class="text-justify"><?php echo $ol_4_li_17; ?></li>
+                        <li class="text-justify"><?php echo $ol_4_li_18; ?></li>
+                        <li class="text-justify"><?php echo $ol_4_li_19; ?></li>
+                        <li class="text-justify"><?php echo $ol_4_li_20; ?></li>
+                        <li class="text-justify"><?php echo $ol_4_li_21; ?></li>
                     </ol>
-                    <p>
-                        Lorem ipsum dolor sit amet, <strong>consectetur adipiscing elit</strong>. Aliquam eget sapien sapien. Curabitur in metus urna. In hac habitasse platea dictumst. Phasellus eu sem sapien, sed vestibulum velit. Nam purus nibh, lacinia non faucibus et, pharetra in dolor. Sed iaculis posuere diam ut cursus. <em>Morbi commodo sodales nisi id sodales. Proin consectetur, nisi id commodo imperdiet, metus nunc consequat lectus, id bibendum diam velit et dui.</em> Proin massa magna, vulputate nec bibendum nec, posuere nec lacus. <small>Aliquam mi erat, aliquam vel luctus eu, pharetra quis elit. Nulla euismod ultrices massa, et feugiat ipsum consequat eu.</small>
+                    <p class="text-justify">
+                        <?php echo $text_8; ?>
                     </p>
                 </div>
             </div>
