@@ -34,7 +34,7 @@
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Resources<strong class="caret"></strong></a>
                 <ul class="dropdown-menu">
                     <li>
-                        <a href="#">Useful Site Links</a>
+                        <a href="<?php echo base_url('index.php/useful_site_links'); ?>">Useful Site Links</a>
                     </li>
                     <li>
                         <a href="#">Learning Kits</a>
