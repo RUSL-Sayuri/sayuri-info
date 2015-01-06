@@ -54,10 +54,10 @@ $this->load->view('partial/header');
                         <?php echo $text_5; ?>
                     </p>
                     <ol start="4">
-                        <li><?php echo $ol_2_li_1; ?></li><img src="<?php echo base_url('assests/images/info-portal/diagnosis_1.png'); ?>"/>
-                        <li><?php echo $ol_2_li_2; ?></li><img src="<?php echo base_url('assests/images/info-portal/diagnosis_2.png'); ?>"/>
-                        <li><?php echo $ol_2_li_3; ?></li><img src="<?php echo base_url('assests/images/info-portal/diagnosis_3.png'); ?>"/>
-                        <li><?php echo $ol_2_li_4; ?></li><img src="<?php echo base_url('assests/images/info-portal/diagnosis_4.png'); ?>"/>
+                        <li><?php echo $ol_2_li_1; ?></li><img src="<?php echo base_url('assests/images/info-portal/diagnosis_2.jpg'); ?>"/>
+                        <li><?php echo $ol_2_li_2; ?></li><img src="<?php echo base_url('assests/images/info-portal/diagnosis_3.jpg'); ?>"/>
+                        <li><?php echo $ol_2_li_3; ?></li><img src="<?php echo base_url('assests/images/info-portal/diagnosis_4.jpg'); ?>"/>
+                        <li><?php echo $ol_2_li_4; ?></li><img src="<?php echo base_url('assests/images/info-portal/diagnosis_5.jpg'); ?>"/>
                         <li><?php echo $ol_2_li_5; ?></li>
                     </ol>
                 </div>
@@ -86,7 +86,7 @@ $this->load->view('partial/header');
             </div>
             <div class="row clearfix">
                 <div class="col-md-12 column">
-                    <img class="center-block img-rounded" height="250px" alt="140x140" src="<?php echo base_url('assests/images/info-portal/diagnosis_5.jpg'); ?>" />
+                    <img class="center-block img-rounded" height="250px" alt="140x140" src="<?php echo base_url('assests/images/info-portal/diagnosis_6.jpg'); ?>" />
                 </div>
             </div>
             <div class="row clearfix">
