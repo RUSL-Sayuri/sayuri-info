@@ -16,6 +16,7 @@ $this->load->view('partial/header');
 		<div class="col-md-12 column">
 			<h3>
 				 <?php echo $title_1; ?>
+                           
 			</h3>
 
 		</div>
