@@ -8,7 +8,8 @@
                 <div class="page-header">
                     <h1>
                         <?php
-                        $language = $this->input->cookie('lang');
+                        if (!isset($language))
+                            $language = $this->input->cookie('lang');
                         $this->lang->load('header', $language);
                         echo $this->lang->line('header_page_title');
                         ?>
