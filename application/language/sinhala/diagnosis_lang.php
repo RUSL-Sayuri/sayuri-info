@@ -30,24 +30,37 @@ $lang['diagnosis_ol_3_li_4']          = "Rather than obeying to adults instructi
 $lang['diagnosis_ol_3_li_5']          = "Talk to themselves alone and sometimes smiling alone.";
 $lang['diagnosis_ol_3_li_6']          = "Use repetitive actions without an intention.";
           
-$lang['diagnosis_ol_4_li_1']          = "Does your child enjoy being swung in lap?";
-$lang['diagnosis_ol_4_li_2']          = "Does your child willing to interact/ play with other kids?";
-$lang['diagnosis_ol_4_li_3']          = "Does your child enjoy playing hide and seek?";
-$lang['diagnosis_ol_4_li_4']          = "Does your child imitate adults actions(ex: cooking)?";
-$lang['diagnosis_ol_4_li_5']          = "Does your child point the things he/she needs using index finger?";
-$lang['diagnosis_ol_4_li_6']          = "Does your child act like doing something real(ex: caring a doll as a child while playing)?";
-$lang['diagnosis_ol_4_li_7']          = "Does your child use index finger to point out something which he/ she is attracted to? ";
-$lang['diagnosis_ol_4_li_8']          = "Does your child use the toys in correct manner when playing?<br>(ex: When playing with car does he ride it rather than inserting into mouth, rotating only the wheels and looking at the wheels only).";
-$lang['diagnosis_ol_4_li_9']          = "Does your child bring and show you something which he/she likes?";
-$lang['diagnosis_ol_4_li_10']           = "Does your child look at something at a distance which you point to?";
-$lang['diagnosis_ol_4_li_11']           = "Does your child close his/ her ears to the usual sounds since they dislike it?";
-$lang['diagnosis_ol_4_li_12']           = "Does your child look at something when pointed across a room situated in opposite side?";
-$lang['diagnosis_ol_4_li_13']           = "When something is kept in front of you and showed to your child does he/she look at it?";
-$lang['diagnosis_ol_4_li_14']           = "Does your child move hands and fingers in an abnormal way? or does he / she has abnormal actions?";
-$lang['diagnosis_ol_4_li_15']           = "Does your child look at something in environment for a long time (ex:fan)?";
-$lang['diagnosis_ol_4_li_16']           = "Does your child respond to you affectionately looking at your face?";
-$lang['diagnosis_ol_4_li_17']           = "Does your child imitate you(if you wink does he / she wink back)?";
-$lang['diagnosis_ol_4_li_18']           = "Does your child respond to his/her name?";
-$lang['diagnosis_ol_4_li_19']           = "Does your child look at your face when showing something to you?";
-$lang['diagnosis_ol_4_li_20']           = "Does your child share the toys when playing with other kids?";
-$lang['diagnosis_ol_4_li_21']           = "Do you feel that your child lives in his own world than being attentive to ehat happens around him?";
+$lang['diagnosis_ol_4_li_1']          = "ඔබේ දරුවා උකුල මත තබා පද්දන විට , උඩ දමන විට , කකුල මත තබා ඔන්චිලි පද්දන විට විනෝදයක් ලබන්නේද?";
+$lang['diagnosis_ol_4_li_2']          = "ඔබේ දරුවා අනෙකුත් දරුවන් සමග සම්බන්ධතා පවත්වා ගැනීමට /සෙල්ලම් කිරීමට කැමැත්තක් දක්වනවද?";
+$lang['diagnosis_ol_4_li_3']          = "ඔබේ දරුවා හැංගිමුත්තම් කිරීමේදී විනෝදයක් ලබන්නේද?";
+$lang['diagnosis_ol_4_li_4']          = "ඔබේ දරුවා වැඩිහිටි අය කරන ක්‍රියා අනුකරණය කරයිද? උදා : කෑම පිසීම.";
+$lang['diagnosis_ol_4_li_5']          = "ඔබේ දරුවා ඔහුට අවශ්‍ය යම් දෙයක් දබර ඇගිල්ල දික්කර පෙන්ව්යිද?
+";
+$lang['diagnosis_ol_4_li_6']          = " ඔබේ දරුවා යම් ක්‍රියාවක් කරන්නාක් මෙන් අගවයි ද ? උදා : බෝනික්කන් රැකබලාගනනක් මෙන් සෙල්ලම් කරයිද?
+";
+$lang['diagnosis_ol_4_li_7']          = "ඔබේ දරුවා සිත් ගත දෙයක් ඔබට පෙන්වීම සදහා දබර ඇගිල්ල පාවිච්චි කරන්නේද?
+";
+$lang['diagnosis_ol_4_li_8']          = "ඔබේ දරුවා නිවැරැදී ආකාරයෙන්  සෙල්ලම් කාර් වැනි සෙල්ලම් බඩු වලින් සෙල්ලම් කරයිද?
+(කටේ දාන්නේ නැතිව ,රෝද පමණක් කරකවන්නේ නැතිව ,රෝද දෙස පමණක් බලන්නේ නැතිව)
+";
+$lang['diagnosis_ol_4_li_9']          = "ඔබේ දරුවා ඔහු /ඇය කැමති දෙයක් ඔබට ගෙනත් පෙන්වන්නේද?
+";
+$lang['diagnosis_ol_4_li_10']           = "ඔබ තරමක් ඈතින් ඇති යමක් දෙසට ඇගිල්ල දිගුකර පෙන්වූ විට දරුවා ඒ දෙස බලයි ද?
+";
+$lang['diagnosis_ol_4_li_11']           = "ඔබේ දරුවා පරිසරයේ සාමාන්‍ය ශබ්ද වලට අකමැත්තක් නිසා කන් දෙක වසා ගනී විද?";
+$lang['diagnosis_ol_4_li_12']           = "ඔබ කාමරය හරහා අනිත් පස ඇති යමක් වෙත ඇගිල්ල දිගුකර පෙන්වන විට දරුවා ඒ දෙස බලයි ද?
+";
+$lang['diagnosis_ol_4_li_13']           = "ඔබ ඉදිරියේ යම් භාණ්ඩයක් තබා පෙන්වූ විට දරුවා ඒ දෙස බලයි ද ?
+";
+$lang['diagnosis_ol_4_li_14']           = "දරුවා නිතරම අසාමාන්‍ය ලෙස ඇත හෝ ඇගිලි චලනය සිදු කරයි ද? හෝ අසාමාන්‍ය චලන පෙන්වයිද?";
+$lang['diagnosis_ol_4_li_15']           = "දරුවා නිතරම පරිසරයේ යම් දෙයක් දෙස බොහෝ වෙලා බලා සිටී ද? උදා : (Fan) එකක් දෙස.";
+$lang['diagnosis_ol_4_li_16']           = "ඔබේ දරුවා ඔබේ මුහුණ දෙස බලා සෙනෙහසින් ප්‍රතිචාර දක්වයිද?
+";
+$lang['diagnosis_ol_4_li_17']           = "ඔබේ දරුවා ඔබ අනුකරණය කරයි ද? උදා : ඔබ යම් මුහුණක් සෑදු  විට දරුවාද එසේම මුහුණ සාදා ගනී
+";
+$lang['diagnosis_ol_4_li_18']           = "ඔබ දරුවාට නම කියා කථා කරන විට එයට ප්‍රතිචාර දක්වයි ද?";
+$lang['diagnosis_ol_4_li_19']           = "දරුවා ඔබට යම් දෙයක් පෙන්වන විට ඔබේ මුහුණ දෙස බලයි ද?
+";
+$lang['diagnosis_ol_4_li_20']           = "ඔබේ දරුවා අනෙකුත් දරුවන් සමග සෙල්ලම් කිරීමේදී සෙල්ලම් බඩු බෙදා ගනීද?
+";
+$lang['diagnosis_ol_4_li_21']           = "ඔබේ දරුවා වටපිටාවේ සාමාන්‍යයෙන් සිදුවන දේවල් ගැන හැගීමක් නැතුව තමාගේ ලෝකයක ජිවත්වන බව ඔබ හැගෙනවාද?";
