@@ -40,13 +40,52 @@ $this->load->view('partial/header');
             </div>
             <div class="col-md-9 column">
                 <div class="row">
-                    <div class="col-md-5">
-                        <p>
-                            Lorem ipsum dolor sit amet, <strong>consectetur adipiscing elit</strong>. Aliquam eget sapien sapien. Curabitur in metus urna. In hac habitasse platea dictumst. Phasellus eu sem sapien, sed vestibulum velit. Nam purus nibh, lacinia non faucibus et, pharetra in dolor. Sed iaculis posuere diam ut cursus. <em>Morbi commodo sodales nisi id sodales. Proin consectetur, nisi id commodo imperdiet, metus nunc consequat lectus, id bibendum diam velit et dui.</em> Proin massa magna, vulputate nec bibendum nec, posuere nec lacus. <small>Aliquam mi erat, aliquam vel luctus eu, pharetra quis elit. Nulla euismod ultrices massa, et feugiat ipsum consequat eu.</small>
-                        </p>
-                    </div>
-                    <div class="col-md-7">
-                        <img class="img-responsive" src="<?php echo base_url('assests/images/Sayuri_Logo_400_400.png'); ?>"/>
+                    <div class="col-md-12">
+                        <div class="carousel slide" id="carousel-133954">
+                            <ol class="carousel-indicators">
+                                <li class="active" data-slide-to="0" data-target="#carousel-133954">
+                                </li>
+                                <li data-slide-to="1" data-target="#carousel-133954">
+                                </li>
+                                <li data-slide-to="2" data-target="#carousel-133954">
+                                </li>
+                            </ol>
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <img alt="" src="http://lorempixel.com/1600/500/sports/1" />
+                                    <div class="carousel-caption">
+                                        <h4>
+                                            First Thumbnail label
+                                        </h4>
+                                        <p>
+                                            Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <img alt="" src="http://lorempixel.com/1600/500/sports/2" />
+                                    <div class="carousel-caption">
+                                        <h4>
+                                            Second Thumbnail label
+                                        </h4>
+                                        <p>
+                                            Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <img alt="" src="http://lorempixel.com/1600/500/sports/3" />
+                                    <div class="carousel-caption">
+                                        <h4>
+                                            Third Thumbnail label
+                                        </h4>
+                                        <p>
+                                            Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div> <a class="left carousel-control" href="#carousel-133954" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a> <a class="right carousel-control" href="#carousel-133954" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -71,7 +110,7 @@ $this->load->view('partial/header');
                 </div>
             </div>
             <div class="col-md-3 column">
-                <div class="well well-sm">
+                <div class="well well-sm" data-toggle="modal" data-target="#What_is_autism">
                     <h4 class="text-center"><?php echo $what_is_autism; ?></h4>
                     <img height="200px" width="200px" class="center-block img-rounded img-responsive" src="<?php echo base_url('assests/images/info-portal/home_what_is_autism.png'); ?>"/>
                 </div>
@@ -91,6 +130,27 @@ $this->load->view('partial/header');
         </div>
         <?php $this->load->view('partial/page_footer'); ?>
     </div>
+
+    <!-- Modals -->
+    <!-- Modal What_is_autism -->
+    <div class="modal fade" id="What_is_autism" tabindex="-1" role="dialog" aria-labelledby="What_is_autism_label" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="What_is_autism_label"><?php echo $model_what_is_autism_title; ?></h4>
+                </div>
+                <div class="modal-body">
+                    <p class="text-justify"><?php echo $model_what_is_autism_text_1; ?></p>
+                    <p class="text-justify"><?php echo $model_what_is_autism_text_2; ?></p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Model End What_is_autism -->
     <?php
     $this->load->view('partial/footer');
     ?>
