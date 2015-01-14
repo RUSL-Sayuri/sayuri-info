@@ -50,4 +50,4 @@ $lang['diagnosis_ol_4_li_17']           = "Does your child imitate you(if you wi
 $lang['diagnosis_ol_4_li_18']           = "Does your child respond to his/her name?";
 $lang['diagnosis_ol_4_li_19']           = "Does your child look at your face when showing something to you?";
 $lang['diagnosis_ol_4_li_20']           = "Does your child share the toys when playing with other kids?";
-$lang['diagnosis_ol_4_li_21']           = "Do you feel that your child lives in his own world than being attentive to ehat happens around him?";
+$lang['diagnosis_ol_4_li_21']           = "Do you feel that your child lives in his own world than being attentive to what happens around him?";

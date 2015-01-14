@@ -72,20 +72,20 @@ $this->load->view('partial/header');
             </div>
             <div class="col-md-3 column">
                 <div class="well well-sm">
-                    <h4 class="text-center"><?php echo $become_a_member; ?></h4>
-                    <img class="center-block img-rounded img-responsive" src="<?php echo base_url('assests/images/Sayuri_Logo_400_400.png'); ?>"/>
-                </div>
-            </div>
-            <div class="col-md-3 column">
-                <div class="well well-sm">
-                    <h4 class="text-center"><?php echo $about_autism; ?></h4>
-                    <img class="center-block img-rounded img-responsive" src="<?php echo base_url('assests/images/Sayuri_Logo_400_400.png'); ?>"/>
+                    <h4 class="text-center"><?php echo $what_is_autism; ?></h4>
+                    <img height="200px" width="200px" class="center-block img-rounded img-responsive" src="<?php echo base_url('assests/images/info-portal/home_what_is_autism.png'); ?>"/>
                 </div>
             </div>
             <div class="col-md-3 column">
                 <div class="well well-sm">
                     <h4 class="text-center"><?php echo $resources; ?></h4>
-                    <img class="center-block img-rounded img-responsive" src="<?php echo base_url('assests/images/Sayuri_Logo_400_400.png'); ?>"/>
+                    <img height="200px" width="200px"  class="center-block img-rounded img-responsive" src="<?php echo base_url('assests/images/info-portal/home_resources.png'); ?>"/>
+                </div>
+            </div>
+            <div class="col-md-3 column">
+                <div class="well well-sm">
+                    <h4 class="text-center"><?php echo $join_us; ?></h4>
+                    <img height="200px" width="200px" class="center-block img-rounded img-responsive" src="<?php echo base_url('assests/images/info-portal/home_join_us.png'); ?>"/>
                 </div>
             </div>
         </div>
