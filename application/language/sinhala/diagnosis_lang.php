@@ -1,34 +1,50 @@
 <?php
-$lang['diagnosis_title_1']          ="Diagnosis";
-$lang['diagnosis_title_2']          ="Early signs recognition.";
-$lang['diagnosis_title_3']          ="Signs recognized by teachers.";
-$lang['diagnosis_title_4']          ="Checklist for autism signs to be used by parents.";
+$lang['diagnosis_title_1']          ="රෝග විනිශ්චය.";
+$lang['diagnosis_title_2']          ="පුර්ණ ළමා වියේදී ඔටිසම් රෝගය හදුනාගැනීම.";
+$lang['diagnosis_title_3']          =" ගුරුවරුන්ට හදුනා ගතහැකි ලක්ෂණයන්.";
+$lang['diagnosis_title_4']          ="දෙමාපියන්ට ඔටිසම් හදුනාගැනීම සදහා භාවිතකළහැකි පත්ත්‍රය.
+";
 
-$lang['diagnosis_text_1']          ="Presently, we don’t have a medical test that can diagnose autism. Instead, specially trained physicians and psychologists administer autism-specific behavioral evaluations using the characteristics possessed in such children.";
-$lang['diagnosis_text_2']          ="In both children and adults, the signs and symptoms of the autism spectrum disorders include problems with social skills, speech and language, and restricted activities and interests. However, there are enormous differences when it comes to the severity of the symptoms, their combinations, and the patterns of behavior.";
-$lang['diagnosis_text_3']          ="<b>Keep in mind that just because your child has a few autism-like symptoms, it doesn’t mean he or she has an autism spectrum disorder.</b> The autism spectrum disorders are diagnosed based on the presence of multiple symptoms that disrupt your child’s ability to communicate, form relationships, explore, play, and learn.";
-$lang['diagnosis_text_4']          ="Often parents are the first to notice that their child is showing unusual behaviors.and from the following signs parents can recognize autism during one year from birth.";
-$lang['diagnosis_text_5']          ="Apart from the above following signs too are prevalent among children.";
-$lang['diagnosis_text_6']          ="As teachers move closely with students they also can recognize the signs and should make attempts in diagnosing autism.";
-$lang['diagnosis_text_7']          ="<b>NOTE.</b><br/>Provide answers to all the questions.<br/>If any behavior mentioned in the checklist is seen rarely (ex: once or twice) consider as that behavior does not exist in your child.";
+$lang['diagnosis_text_1']          ="ඔටිසම් රෝගය හදුනාගැනීම සදහා විශේෂඥ මනෝවෛද්‍ය වරයෙකුගේ හෝ චිකිත්සකයකුගේ සහය අවශ්‍ය වේ. රෝගය හදුනාගැනීම සදහා අදාල ළමයාගේ හැසිරීම්රටාව සහ ගතිලක්ෂණ පිලිබදව සලකා බැලෙන අතර පිළිගත් වෛද්‍ය පරීක්ෂණ ක්‍රමයක් රෝගය හදුනාගැනීම සදහා නොමැත.";
+$lang['diagnosis_text_2']          ="ඔටිසම් රෝගී වැඩිහිටියන් සහ ළමයින් තුල සමාජ සබදතා ගොඩනැගීම, කථනය හා භාෂාව, සීමිත ක්‍රියාකාරකම් සහ අවශ්‍යතාවයන් හදුනාගැනීම පිළිබද දුරුවලතා දක්නට ඇති අතර ඇතැම් අවස්තා වලදී ඉහත සදහන් ගති ලක්ෂණ එකක් හෝ කිහිපයක් දක්නට ලැබේ.
+";
+$lang['diagnosis_text_3']          ="<b>විශේෂයෙන් මතක තබා ගතයුතු කරුණ වන්නේ ඉහත ලක්ෂණ වලින් පෙලෙන්නන් සියලු දෙනාම  ඔටිසම් රෝගීන් නොවන අතර නිශ්චිතව හදුනාගැනීම සදහා වෛද්‍ය සහය ලබා ගත යුතුවේ.
+.</b> ඔටිසම් ගති ලක්ෂණ සහිත දරුවකු හදුනාගනු ලබන්නේ ඔවුන් සන්නිවේදන, සබදතා ගොඩනගාගැනීම, ක්‍රීඩා, අධ්‍යාපන යන අංශවලින් දක්වනු ලබන කටයුතු සලකීමෙනි.
+";
+$lang['diagnosis_text_4']          ="දරුවන්ගේ හැසිරීම් රටාවන් සහ ගතිලක්ෂණ පිලිබදව මුලින්ම හදුනාගනු ලබන්නේ දෙමාපියන් විසිනි. පහත සදහන් ලකුණු වලින් ඔබගේ ළදරුවා පෙලෙන්නේනම් ඔටිසම් ඇතිවීමේ අවදානමක් ඇත.
+";
+$lang['diagnosis_text_5']          =" ඉහත සදහන් ලක්ෂණ වලට අමතරව දරුවන් තුල දැකිය හැකි තවත් සාමාන්‍ය ලක්ෂණ පහත දක්වා ඇත.
+";
+$lang['diagnosis_text_6']          ="දෙමාපියන්ට පසුව දරුවන් සමග වැඩි ලෙස කටයුතු සිදු කරනු ලබන්නේ ගුරුවරුන් වන අතර පහත ලක්ෂණ සහිත දරුවන් හදුනා ගැනීමට හැකිවනු ඇත.
+";
+$lang['diagnosis_text_7']          ="<b>NOTE.</b><br/>සම්පුර්ණ ලෙස ප්‍රශ්න සදහා පිළිතුරු සපයන්න.<br/>If any behavior mentioned in the checklist is seen rarely (ex: once or twice) consider as that behavior does not exist in your child.";
 $lang['diagnosis_text_8']          ="Have you successfully filled this checklist? Then evaluate it with the criteria given below and we suggest ……………………………..";
 
-$lang['diagnosis_ol_1_li_1']          = "In <b>5 months</b> the babies should babble. Pay attention to it. Babies who don’t show these not necessarily have autism rather good to check.";
-$lang['diagnosis_ol_1_li_2']          = "During <b>6-9 months</b> babies tend to have eye contact. They tend to look at their parents and smile but autistic children take their look away. ";
-$lang['diagnosis_ol_1_li_3']          = "In <b>10 months</b> responding to names start in. Must also check ears if they fail to respond.";
+$lang['diagnosis_ol_1_li_1']          = " <b>පළමු මාස පහක කාලය</b> තුලදී බිළිදෙකු  යම් උච්චාරණයන් සිදුකලයුතුය. එසේ නොකරන්නේනම් ඔටිසම් පරීක්ෂාවක් සදහා යොමුවීම වැදගත් වේ.";
+$lang['diagnosis_ol_1_li_2']          = " <b>මාස පහත් නවයත් අතර කාලය</b> තුලදී බිළිදෙකු ඇස් මගින් සබදතා පැවැත්වීම ආරම්භ කරයි. දරුවන් සිය දෙමව්පියන් දෙස බැලීම, ඔවුන් සමග සිනාසීම වැනි කටයුතු මෙම අවදියේදී සිදුකරයි. නමුත් ඔටිසම් ගතිලක්ෂණ සහිත දරුවන් මෙලෙස ප්‍රතිචාර දැක්වීමේ හෝ දෑස් මගින් සබදතා පැවැත්වීම සිදු නොකරයි. ";
+$lang['diagnosis_ol_1_li_3']          = " <b>මාස දහයක් </b> පමණ වනවිට නම් වලට ප්‍රතිචාර දැක්වීම සිදුකරනුලැබේ. එසේ නොකරයිනම් ඇසීමේ හෝ ඔටිසම් තත්ත්වයක් විය හැක. ";
           
-$lang['diagnosis_ol_2_li_1']          = "Sensitive towards sounds and most babies are are not willing to be touched or cuddled.";
-$lang['diagnosis_ol_2_li_2']          = "Under react to pain.ex: when exposed to candle heat.";
-$lang['diagnosis_ol_2_li_3']          = "Do not like changes in routine.";
-$lang['diagnosis_ol_2_li_4']          = "Note the notice of them.do they fix their attention a particular object or part of that object excluding to what happens around them.";
-$lang['diagnosis_ol_2_li_5']          = "Repetitive movements.";
+$lang['diagnosis_ol_2_li_1']          = "ශබ්ද සදහා ප්‍රතිචාර නොදැක්වීම.
+";
+$lang['diagnosis_ol_2_li_2']          = " වේදනාකාරී අවස්තාවන් සදහා මද ප්‍රතිචාර දැක්වීම.(උ.දා-: ඉටි පන්දමකට අත පිළිස්සුන අවස්තාවකදී). 
+";
+$lang['diagnosis_ol_2_li_3']          = " සුපුරුදු කාර්ය පටිපාටියෙන් බැහැරව කටයුතු කිරීමට දක්වන අකමැත්ත.";
+$lang['diagnosis_ol_2_li_4']          = "කිසියම් කටයුත්තකට දක්වන සැලකීම පිලිබදව සොයාබැලීම. උදා.  (කිසියම් වස්තුවක් සමග කටයුතු කරන විට එම වස්තුව දෙස සම්පූර්ණ අවධානයෙන් කටයුතු කරනවාද යන්න හා එම අවස්ථාවේදී අවට පරිසරය පිලිබදව දක්වන ප්‍රතිචාරය. )
+";
+$lang['diagnosis_ol_2_li_5']          = "නැවත නැවත සිදුකරන චලනයන් පිලිබදව සැලකීම.
+";
           
-$lang['diagnosis_ol_3_li_1']          = "Children fail to have a close relationship with co students and other adults and speak limitedly.";
-$lang['diagnosis_ol_3_li_2']          = "Feel uncomfortable to have eye contact when interacting with others.";
-$lang['diagnosis_ol_3_li_3']          = "Not responding to their names when called.";
-$lang['diagnosis_ol_3_li_4']          = "Rather than obeying to adults instructions they tend to do their favourite actions again and again.";
-$lang['diagnosis_ol_3_li_5']          = "Talk to themselves alone and sometimes smiling alone.";
-$lang['diagnosis_ol_3_li_6']          = "Use repetitive actions without an intention.";
+$lang['diagnosis_ol_3_li_1']          = "අනිකුත් දරුවන් සහ වැඩිහිටියන් සමග අඩු සබදතාවන් පවත්වන්නේනම් සහ කතා කිරීමට අකමැති  ළමයින්.
+";
+$lang['diagnosis_ol_3_li_2']          = "ක්‍රියාකාරකම් වලදී ඇස් දෙස බැලීමට  අපහසු හෝ අකමැති ළමුන්. 
+";
+$lang['diagnosis_ol_3_li_3']          = "නම සදහා ප්‍රතිචාර නොදක්වන ළමුන්.
+";
+$lang['diagnosis_ol_3_li_4']          = "වැඩිහිටියන්ගේ උපදෙස් අනුගමනය නොකරමින් තම කැමැත්තට පමණක් කටයුතු කරන ළමයින්.
+";
+$lang['diagnosis_ol_3_li_5']          = "තනිවම කතාකරන සහ සිනහවෙන  ළමයින්.
+";
+$lang['diagnosis_ol_3_li_6']          = "හැගීමකින් හෝ අවධානයකින්  තොරව කටයුතු වල නියලෙන ළමුන්.";
           
 $lang['diagnosis_ol_4_li_1']          = "ඔබේ දරුවා උකුල මත තබා පද්දන විට , උඩ දමන විට , කකුල මත තබා ඔන්චිලි පද්දන විට විනෝදයක් ලබන්නේද?";
 $lang['diagnosis_ol_4_li_2']          = "ඔබේ දරුවා අනෙකුත් දරුවන් සමග සම්බන්ධතා පවත්වා ගැනීමට /සෙල්ලම් කිරීමට කැමැත්තක් දක්වනවද?";
