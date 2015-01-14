@@ -32,10 +32,12 @@ $this->load->view('partial/header');
                     </ul>
                 </div> 
                 <div class="well well-sm">
-                    <button type="button" class="btn btn-link btn-block">App Center</button> 
+                    <img  class="center-block img-rounded img-responsive" src="<?php echo base_url('assests/images/info-portal/app_logo_png.png'); ?>"/>
+                    
                 </div>
                 <div class="well well-sm">
-                    <button type="button" class="btn btn-link btn-block">Forum</button>
+                    <img  class="center-block img-rounded img-responsive" src="<?php echo base_url('assests/images/info-portal/forum_logo_png.png'); ?>"/>
+                    
                 </div>
             </div>
             <div class="col-md-9 column">
@@ -110,19 +112,19 @@ $this->load->view('partial/header');
                 </div>
             </div>
             <div class="col-md-3 column">
-                <div class="well well-sm" data-toggle="modal" data-target="#What_is_autism">
+                <div class="well well-sm" data-toggle="modal" data-target="#What_is_autism" style="cursor:pointer">
                     <h4 class="text-center"><?php echo $what_is_autism; ?></h4>
                     <img height="200px" width="200px" class="center-block img-rounded img-responsive" src="<?php echo base_url('assests/images/info-portal/home_what_is_autism.png'); ?>"/>
                 </div>
             </div>
             <div class="col-md-3 column">
-                <div class="well well-sm">
+                <div class="well well-sm" style="cursor:pointer">
                     <h4 class="text-center"><?php echo $resources; ?></h4>
                     <img height="200px" width="200px"  class="center-block img-rounded img-responsive" src="<?php echo base_url('assests/images/info-portal/home_resources.png'); ?>"/>
                 </div>
             </div>
             <div class="col-md-3 column">
-                <div class="well well-sm">
+                <div class="well well-sm" style="cursor:pointer">
                     <h4 class="text-center"><?php echo $join_us; ?></h4>
                     <img height="200px" width="200px" class="center-block img-rounded img-responsive" src="<?php echo base_url('assests/images/info-portal/home_join_us.png'); ?>"/>
                 </div>
