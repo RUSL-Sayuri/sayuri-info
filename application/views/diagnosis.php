@@ -54,10 +54,10 @@ $this->load->view('partial/header');
                         <?php echo $text_5; ?>
                     </p>
                     <ol start="4">
-                        <li><?php echo $ol_2_li_1; ?></li><img src="<?php echo base_url('assests/images/info-portal/diagnosis_2.jpg'); ?>"/>
-                        <li><?php echo $ol_2_li_2; ?></li><img src="<?php echo base_url('assests/images/info-portal/diagnosis_3.jpg'); ?>"/>
-                        <li><?php echo $ol_2_li_3; ?></li><img src="<?php echo base_url('assests/images/info-portal/diagnosis_4.jpg'); ?>"/>
-                        <li><?php echo $ol_2_li_4; ?></li><img src="<?php echo base_url('assests/images/info-portal/diagnosis_5.jpg'); ?>"/>
+                        <li><?php echo $ol_2_li_1; ?></li><img class="img-rounded" width="250px" src="<?php echo base_url('assests/images/info-portal/diagnosis_2.jpg'); ?>"/>
+                        <li><?php echo $ol_2_li_2; ?></li><img class="img-rounded" width="250px" src="<?php echo base_url('assests/images/info-portal/diagnosis_3.jpg'); ?>"/>
+                        <li><?php echo $ol_2_li_3; ?></li><img class="img-rounded" width="250px" src="<?php echo base_url('assests/images/info-portal/diagnosis_4.jpg'); ?>"/>
+                        <li><?php echo $ol_2_li_4; ?></li><img class="img-rounded" width="250px" src="<?php echo base_url('assests/images/info-portal/diagnosis_5.jpg'); ?>"/>
                         <li><?php echo $ol_2_li_5; ?></li>
                     </ol>
                 </div>
