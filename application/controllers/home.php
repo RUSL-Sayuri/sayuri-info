@@ -24,8 +24,8 @@ class Home extends CI_Controller {
         $this->lang->load('home', $language);
         $view_data = array(
             'language'=> $language,
-            'become_a_member' => $this->lang->line('home_become_a_member'),
-            'about_autism' => $this->lang->line('home_about_autism'),
+            'join_us' => $this->lang->line('home_join_us'),
+            'what_is_autism' => $this->lang->line('home_what_is_autism'),
             'resources' => $this->lang->line('home_resources'),
         );
         $this->load->view('home', $view_data);
