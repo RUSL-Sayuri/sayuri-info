@@ -6,6 +6,6 @@
  * and open the template in the editor.
  */
 
-$lang['home_become_a_member']="Become a Member";
-$lang['home_about_autism']="About Autism";
+$lang['home_join_us']="Join Us";
+$lang['home_what_is_autism']="What is Autism";
 $lang['home_resources']="Resources";
