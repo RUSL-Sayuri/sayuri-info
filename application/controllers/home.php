@@ -22,11 +22,15 @@ class Home extends CI_Controller {
             $language = $new_language;
         }
         $this->lang->load('home', $language);
+        $this->lang->load('what_is_autism', $language);
         $view_data = array(
             'language'=> $language,
             'join_us' => $this->lang->line('home_join_us'),
             'what_is_autism' => $this->lang->line('home_what_is_autism'),
             'resources' => $this->lang->line('home_resources'),
+            'model_what_is_autism_title' => $this->lang->line('what_is_autism_title'),
+            'model_what_is_autism_text_1' => $this->lang->line('what_is_autism_text_1'),
+            'model_what_is_autism_text_2' => $this->lang->line('what_is_autism_text_2'),
         );
         $this->load->view('home', $view_data);
     }

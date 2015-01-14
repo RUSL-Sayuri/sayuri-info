@@ -17,9 +17,6 @@
                         <a href="<?php echo base_url('index.php/symptoms'); ?>">Symptoms</a>
                     </li>
                     <li>
-                        <a href="#">Learn the Signs</a>
-                    </li>
-                    <li>
                         <a href="<?php echo base_url('index.php/treatments'); ?>">Treatments</a>
                     </li>
                     <li>
