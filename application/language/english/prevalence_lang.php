@@ -1,0 +1,13 @@
+<?php
+
+$lang['prevalence_title_1'] = "Prevalence";
+
+$lang['prevalence_text_1'] = "Autism is no longer a disorder which no nobody knows. it is a widespread disorder in this era. yet it needs a lot of awareness for the public since people get to know about this only when someone closer to them gets affected by the disorder.";
+$lang['prevalence_text_2'] = "In the 1960s, it was assumed that autism was rare and associated with serious handicaps and intellectual disability.";
+$lang['prevalence_text_3'] = "Also, for several decades, the best estimated prevalence was 4 to 5 per 10,000 children whereas, much higher figures are reported in more recent epidemiological studies. ";
+$lang['prevalence_text_4'] = "In the first epidemiological studies in the 1960s, the prevalence was found to be 4 per 10,000. Later studies showed higher prevalence depending on whether a broader definition for autism was used. However, it is generally thought that in the last 2 decades or so, prevalence of autism is rising. A multisite survey in US has declared that 1 in 150 children have autism or 66 per 10,000. A longitudinal study in Taiwan compared the rate of autism in birth years of 1996-1999 and 2000-2004 and found an increase of 14%, whereas newly diagnosed mental retardation decreased by 42% to 50% over the same period. Similar rise in incidence rate is reported elsewhere and is thought to be partly due increased awareness about autism among the medical profession. Boys are 3-4 times more likely to be affected than girls.";
+$lang['prevalence_text_5'] = "A multisite survey in US has declared that 1 in 150 children have autism or 66 per 10,000. A longitudinal study in Taiwan compared the rate of autism in birth years of 1996-1999 and 2000-2004 and found an increase of 14%, whereas newly diagnosed mental retardation decreased by 42% to 50% over the same period. Similar rise in incidence rate is reported elsewhere and is thought to be partly due increased awareness about autism among the medical profession. Boys are 3-4 times more likely to be affected than girls.";
+$lang['prevalence_text_6'] = "1 among 93 children is affected by autism in Sri Lanka [Prof. Hemamali Perera,Prof. in Psychological Medicine,Faculty of Medicine,University of Colombo]";
+$lang['prevalence_text_7'] = "In Sri Lanka there was no special attention on Autistic children prior to the 1980 decade.The teacher training programme on children with intellectual disabilities conducted with support from SIDA in 1985, drew the attention of teachers on Autistic children. In the special Education Units in which those teachers served, there had been few autistic children but no teaching methodologies specific to autistic children had been used. ";
+
+?>

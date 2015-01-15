@@ -173,10 +173,12 @@ $this->load->view('partial/header');
 		</div>
             
 	</div>
-    
+    <?php $this->load->view('partial/page_footer'); ?>
 </div>
-
+<?php
+$this->load->view('partial/footer');
 ?>
+
 
 
 
