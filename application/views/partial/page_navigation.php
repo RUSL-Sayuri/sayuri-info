@@ -37,7 +37,7 @@
                         <a href="#">Learning Kits</a>
                     </li>
                     <li>
-                        <a href="#">Article Archive</a>
+                        <a href="<?php echo base_url('index.php/article_archive'); ?>">Article Archive</a>
                     </li>
                     <li>
                         <a href="#">Success Stories</a>

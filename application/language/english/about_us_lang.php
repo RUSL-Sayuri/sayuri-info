@@ -17,9 +17,9 @@ the society about autistic children, their symptoms and the treatment methodolog
 $lang['about_us_about_the_project_text4']="The set of applications we provide for the autistic children are targeted to improve social and emotional skills in them. Apps are built as games that attract small kids to involve with them closely and they provide self tailored behavioral training and management therapies since the symptoms of the disorder varies from each other.";
 
 $lang['about_us_vision_title']="Vision";
-$lang['about_us_vision_text']="----text----";
+$lang['about_us_vision_text']="'Sayuri wishes to not leave a single autistic child or adult behind without essential care and treatment, uplifting the wellbeing of both the autistic and their caregivers'";
 
 $lang['about_us_mission_title']="Mission";
-$lang['about_us_mission_text']="---text---";
+$lang['about_us_mission_text']="'We deliver person-centered solutions by providing flexible, responsive, interactive information portal and set of app solutions to assist children and adults with autism'";
 
 ?>

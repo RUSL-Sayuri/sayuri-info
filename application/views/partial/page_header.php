@@ -20,8 +20,8 @@
             <div class="col-md-4 column">
                 <div class="btn-group btn-group-xs pull-right">
                     <a href="<?php echo base_url('index.php/home/en'); ?>" class="btn btn-default">English</a> 
-                    <a href="<?php echo base_url('index.php/home/si'); ?>" class="btn btn-default" >Sinhala</a> 
-                    <a href="<?php echo base_url('index.php/home/ta'); ?>" class="btn btn-default" >Tamil</a> 
+                    <a href="<?php echo base_url('index.php/home/si'); ?>" class="btn btn-default" >සිංහල</a> 
+                    <a href="<?php echo base_url('index.php/home/ta'); ?>" class="btn btn-default" >தமிழ்</a> 
 
                 </div>
                 <br><br><br><br><br><br>
