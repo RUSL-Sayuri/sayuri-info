@@ -18,7 +18,7 @@ $this->load->view('partial/header');
                     </h4>
                     <ul>
                         <li>
-                            <a href="#">Family Member</a>
+                            <a href="new_registration_form_parent.php">Family Member</a>
                         </li>
                         <li>
                             <a href="#">Professional</a>
