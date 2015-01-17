@@ -18,16 +18,16 @@ $this->load->view('partial/header');
                     </h4>
                     <ul>
                         <li>
-                            <a href="<?php echo base_url('index.php?/register/family_member'); ?>">Family Member</a>
+                            <a href="<?php echo base_url('index.php/register/family_member'); ?>">Family Member</a>
                         </li>
                         <li>
-                            <a href="<?php echo base_url('index.php?/register/professional'); ?>">Professional</a>
+                            <a href="<?php echo base_url('index.php/register/professional'); ?>">Professional</a>
                         </li>
                         <li>
-                            <a href="<?php echo base_url('index.php?/register/researcher'); ?>">Researcher</a>
+                            <a href="<?php echo base_url('index.php/register/researcher'); ?>">Researcher</a>
                         </li>
                         <li>
-                            <a href="<?php echo base_url('index.php?/register/special_school'); ?>">Special School</a>
+                            <a href="<?php echo base_url('index.php/register/special_school'); ?>">Special School</a>
                         </li>
                     </ul>
                 </div> 
@@ -72,7 +72,7 @@ $this->load->view('partial/header');
                                         </h4>
                                         <p>
                                             <?php echo $carousel_quote_author_2; ?>
-                                             
+
                                         </p>
                                     </div>
                                 </div>
@@ -81,11 +81,11 @@ $this->load->view('partial/header');
                                     <div class="carousel-caption">
                                         <h4>
                                             <?php echo $carousel_quote_3; ?> 
-                                            
+
                                         </h4>
                                         <p>
                                             <?php echo $carousel_quote_author_3; ?>
-                                            
+
                                         </p>
                                     </div>
                                 </div>
@@ -99,11 +99,11 @@ $this->load->view('partial/header');
             <div class="col-md-3 column">
                 <div class="well well-sm">
                     <h4>Contact us</h4>
-                    <form class="form-horizontal" role="form">
+                    <form class="form-horizontal" role="form" method="POST" action="<?php echo base_url('index.php/home/email_subscribe'); ?>">
                         <div class="form-group">
-                            <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+                            <label for="subscribe_email" class="col-sm-2 control-label">Email</label>
                             <div class="col-sm-10">
-                                <input type="email" class="form-control" id="inputEmail3" />
+                                <input type="email" name="subscribe_email" class="form-control" id="subscribe_email" />
                             </div>
                         </div>
                         <div class="form-group">

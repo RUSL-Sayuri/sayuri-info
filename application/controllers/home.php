@@ -64,5 +64,13 @@ class Home extends CI_Controller {
         );
         $this->input->set_cookie($cookie);
     }
+    
+    public function email_subscribe() {
+         $data = array(
+            'email' => $this->input->post('subscribe_email')
+        );
+        $this->db->insert('subscription',$data);
+        
+    }
 
 }

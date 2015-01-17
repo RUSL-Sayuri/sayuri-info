@@ -21,5 +21,5 @@ $lang['about_us_vision_text']="'Sayuri wishes to not leave a single autistic chi
 
 $lang['about_us_mission_title']="Mission";
 $lang['about_us_mission_text']="'We deliver person-centered solutions by providing flexible, responsive, interactive information portal and set of app solutions to assist children and adults with autism'";
-
+ 
 ?>
