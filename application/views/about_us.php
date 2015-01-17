@@ -9,8 +9,8 @@ $this->load->view('partial/header');
         </div>
     </div>
     <div class="row clearfix">
-        <div class="col-md-12 column">
-            <img alt="140x140" src="http://lorempixel.com/140/140/" />
+        <div class="col-md-12 column" >
+            <center><img alt="Sayuri Logo" width="200px" height="200px" src="<?php echo base_url('assests/images/Sayuri_Logo_400_400.png'); ?>" /></center>
         </div>
     </div>
     <div class="row clearfix">
