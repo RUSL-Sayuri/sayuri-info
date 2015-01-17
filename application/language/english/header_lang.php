@@ -6,4 +6,5 @@
  * and open the template in the editor.
  */
 
-$lang['header_page_title']="Advocacy Web Portal";
+$lang['header_page_title']="Sayuri";
+$lang['header_page_subtitle']="Information Portal on Autism Spectum Disorder";

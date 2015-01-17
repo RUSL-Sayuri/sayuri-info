@@ -12,6 +12,7 @@
  * @author harit_000
  */
 class Treatments extends CI_Controller {
+    
     public function index(){
         $language = $this->input->cookie('lang');
         $this->lang->load('treatments', $language);
@@ -78,7 +79,6 @@ class Treatments extends CI_Controller {
             'ol_1_li_27' => $this->lang->line('treatments_ol_1_li_27'),
             'ol_1_li_28' => $this->lang->line('treatments_ol_1_li_28'),
         );
-        
         $this->load->view('treatments',$view_data);
     }
 }

@@ -10,7 +10,6 @@ $lang['treatments_title_8']='Occupational therapy';
 $lang['treatments_title_9']='Physical therapy';
 $lang['treatments_title_10']='Treatments to be done at home';
 
-
 $lang['treatments_text_1']='There is currently no “cure” for autism spectrum disorder (ASD). However, a range of specialist education and behavioural programmes (often referred to as interventions) can be effective in improving the skills of children with ASD.';
 $lang['treatments_text_2']='Some researchers group treatments for ASD into different categories (see figure below). Each category focuses on a type of treatment or on a specific set of symptoms and behaviors that it tries to help.';
 $lang['treatments_text_3']='Because every child with an ASD may show different types of symptoms, a family may need to choose from the available treatments,therapies, and programs based on the child’s needs. The treatment plan for your child may have some of each of these treatment categories.';
@@ -32,7 +31,7 @@ $lang['treatments_ul_1_li_5']='Responsive Prelinguistic Milieu Teaching';
 $lang['treatments_ul_1_li_6']='Sensory integration therapy';
 
 
-$lang['treatments_ol_1_li_1']='Bring an object(a toy) to your eye level and make noise of it or sway it.<b>Repeat this until the child looks at your face as a response.</b> ';
+$lang['treatments_ol_1_li_1']='Bring an object(a toy) to your eye level and make noise of it or sway it. <b>Repeat this until the child looks at your face as a response.</b> ';
 $lang['treatments_ol_1_li_2']='Practise the above activity with different toys and objects.ex: When the child looks at the face blowing soap bubbles, bringing colourful objects.';
 $lang['treatments_ol_1_li_3']='Before you give something to your child bring it to your eye level and ask whether the child wants it. Give the object to the child soon as he/she asks for it looking at your face.ex: When giving biscuits bring it to <b>your eye level</b> and ask “Do you want biscuit?” Give the biscuit only when they respond to it looking at your face.';
 $lang['treatments_ol_1_li_4']='Blow soap balls.child will enjoy it following behind the soap balls.avoid blowing soap balls till the child looks at your face and ask for more.';

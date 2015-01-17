@@ -20,7 +20,7 @@
                         <a href="<?php echo base_url('index.php/treatments'); ?>">Treatments</a>
                     </li>
                     <li>
-                        <a href="<?php echo base_url('index.php/prevalence'); ?>">Prevalence</a>
+                         <a href="<?php echo base_url('index.php/prevalence'); ?>">Prevalence</a>
                     </li>
                     <li>
                         <a href="<?php echo base_url('index.php/asperger_syndrome'); ?>">Asperger Syndrome</a>
