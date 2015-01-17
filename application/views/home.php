@@ -121,13 +121,13 @@ $this->load->view('partial/header');
                 </div>
             </div>
             <div class="col-md-3 column">
-                <div class="well well-sm" style="cursor:pointer">
+                <div class="well well-sm" data-toggle="modal" data-target="#Resources" style="cursor:pointer">
                     <h4 class="text-center"><?php echo $resources; ?></h4>
                     <img height="200px" width="200px"  class="center-block img-rounded img-responsive" src="<?php echo base_url('assests/images/info-portal/home_resources.png'); ?>"/>
                 </div>
             </div>
             <div class="col-md-3 column">
-                <div class="well well-sm" style="cursor:pointer">
+                <div class="well well-sm" data-toggle="modal" data-target="#Join_us" style="cursor:pointer">
                     <h4 class="text-center"><?php echo $join_us; ?></h4>
                     <img height="200px" width="200px" class="center-block img-rounded img-responsive" src="<?php echo base_url('assests/images/info-portal/home_join_us.png'); ?>"/>
                 </div>
@@ -156,6 +156,55 @@ $this->load->view('partial/header');
         </div>
     </div>
     <!-- Model End What_is_autism -->
+    <!-- Modal Resources -->
+    <div class="modal fade" id="Resources" tabindex="-1" role="dialog" aria-labelledby="Resources_label" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="Resources_label"><?php echo $resources; ?></h4>
+                </div>
+                <div class="modal-body">
+                    <ul>
+                        <li><a href="<?php echo base_url('index.php/useful_site_links'); ?>"><?php echo $navbar_useful_links; ?></a></li>
+                        <li><a href="<?php echo base_url('index.php/'); ?>"><?php echo $navbar_learning_kits; ?></a></li>
+                        <li><a href="<?php echo base_url('index.php/'); ?>"><?php echo $navbar_article_archive; ?></a></li>
+                        <li><a href="<?php echo base_url('index.php/'); ?>"><?php echo $navbar_sucess_stories; ?></a></li>
+                        <li><a href="<?php echo base_url('index.php/'); ?>"><?php echo $navbar_centers_in_srilanka; ?></a></li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Model End Resources-->
+    <!-- Modal Join Us -->
+    <div class="modal fade" id="Join_us" tabindex="-1" role="dialog" aria-labelledby="Join_us_label" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="Join_us_label"><?php echo $join_us; ?></h4>
+                </div>
+                <div class="modal-body">
+                    <ul>
+                        <li><a href="<?php echo base_url('index.php/register/family_member'); ?>"><?php echo $home_family_member; ?></a></li>
+                        <li><a href="<?php echo base_url('index.php/register/professional'); ?>"><?php echo $home_professional ; ?></a></li>
+                        <li><a href="<?php echo base_url('index.php/register/researcher'); ?>"><?php echo $home_researcher ; ?></a></li>
+                        <li><a href="<?php echo base_url('index.php/register/special_school'); ?>"><?php echo $home_special_school ; ?></a></li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Model End Join Us-->
+    
+    
     <?php if ($email_subscribe) {
         ?>
         <!-- Modal Email Subscription-->

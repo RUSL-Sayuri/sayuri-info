@@ -23,6 +23,7 @@ class Home extends CI_Controller {
         }
         $this->lang->load('home', $language);
         $this->lang->load('what_is_autism', $language);
+        $this->lang->load('page_navigation', $language);
         $view_data = array(
             'language' => $language,
             'join_us' => $this->lang->line('home_join_us'),
@@ -37,16 +38,19 @@ class Home extends CI_Controller {
             'carousel_quote_author_1' => $this->lang->line('carousel_quote_author_1'),
             'carousel_quote_author_2' => $this->lang->line('carousel_quote_author_2'),
             'carousel_quote_author_3' => $this->lang->line('carousel_quote_author_3'),
-            
             'home_i_am' => $this->lang->line('home_i_am'),
             'home_family_member' => $this->lang->line('home_family_member'),
             'home_professional' => $this->lang->line('home_professional'),
             'home_researcher' => $this->lang->line('home_researcher'),
             'home_special_school' => $this->lang->line('home_special_school'),
-
             'email_subscribe_title' => $this->lang->line('email_subscribe_title'),
             'email_subscribe' => $email_subscribe,
             'email_subscribe_error_no' => $error,
+            'navbar_useful_links' => $this->lang->line('navbar_useful_links'),
+            'navbar_learning_kits' => $this->lang->line('navbar_learning_kits'),
+            'navbar_article_archive' => $this->lang->line('navbar_article_archive'),
+            'navbar_sucess_stories' => $this->lang->line('navbar_sucess_stories'),
+            'navbar_centers_in_srilanka' => $this->lang->line('navbar_centers_in_srilanka'),
         );
 
         switch ($error) {
