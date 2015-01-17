@@ -7,16 +7,18 @@
  */
 
 $lang['what_is_autism_title']="ඔටිසම් යනු කුමක්ද?";
-$lang['what_is_autism_text_1']="Autism is a lifelong developmental disability that affects how a person communicates with, and relates to other people. It also affects how they make sense of the world around them.";
-$lang['what_is_autism_text_2']="The word 'spectrum' describes the range of difficulties that people with autism may experience and the degree to which they may be affected. Some people may be able to live relatively normal lives, while others may have an accompanying learning disability and require continued specialist support.";
-$lang['what_is_autism_text_3']="People on the autism spectrum may also have:";
-$lang['what_is_autism_ul_1_li_1']="Unusual sensory interests such as sniffing objects or staring intently at moving objects.";
-$lang['what_is_autism_ul_1_li_2']="Sensory sensitivities including avoiding everyday sounds and textures such as hair dryers, vacuum cleaners and sand.";
-$lang['what_is_autism_ul_1_li_3']="Intellectual impairment or learning difficulties.";
-$lang['what_is_autism_ul_1_li_4']="Repetitive movements.";
-$lang['what_is_autism_text_4']="Autism appears to have its roots in very early brain development. However, the most obvious signs of autism and symptoms of autism tend to emerge between 2 and 3 years of age.";
-$lang['what_is_autism_text_5']="Sri Lanka is experiencing a higher increase in the number of autistic children, and it amounts to 1:93 therefore it is about time to raise awareness among the public and mitigate this situation.";
-$lang['what_is_autism_title_2']="Why should autism be prevented?";
-$lang['what_is_autism_text_6']="Autism is an extreme unusual situation which may affect for lifetime and diagnosis of this situation at an early age is useful in helping them to convert their unusual behaviors to an acceptable range.";
-$lang['what_is_autism_text_7']="The medical explanation for the disorder is that autism affects information processing in the brain by altering how nerve cells and their synapses connect and organize. How this occurs is not well understood. This is one of the three disorders in the Autism Spectrum and the other two being Asperger's Syndrome, which lacks delays in cognitive development and language and Pervasive Developmental Disorder, Not Otherwise Specified (PDD-NOS) which is diagnosed when the full set of criteria for autism or Asperger syndrome are not met.";
-$lang['what_is_autism_text_8']="Autism being a common disorder the measures taken by many developed countries in the world to tackle this problem at present is considerably very high. Although this disorder does not have a permanent cure, modern science has found that it could be controlled to a great extent.";
+$lang['what_is_autism_text_1']=" ඔටිසම් යනු දිගු  කාලයක් පුරා පවතින මානසික රෝගී තත්වයක් වන අතර  අනෙකුත් පුද්ගලයන් සමග සන්නිවේදනයෙදී සහ සබදතා ගොඩනැගීමේදී දක්වන දුරුවල තාවයන් වේ. එමෙන්ම ඔටිසම් රෝගයෙන් පෙලෙන්නන් බාහිර පරිසරය ගනුදෙනු කරන නැතහොත් දකින අකාරය දුරුවල මට්ටමක පවතී.";
+$lang['what_is_autism_text_2']="ඔටිසම් සහිත පුද්ගලයන් විවිධ මට්ටම් වල සංකුලතත්වයන්ගෙන් පෙලෙන අතර ඔවුන්ට සාමානිය ජිවන රටාවක් පවත්වා ගැනීම සදහා හැකියාවක් ඇත. ඒ සදහා අදාල පුද්ගලයන් විශේෂඤයන් යටතේ  විශේෂ පුහුණුවකට ලක්කර යුතුය.";
+$lang['what_is_autism_text_3']="ඔටිසම් රෝගයෙන් පෙලෙන්නන් තුලින් පහත ලක්ෂණ දැකිය හැක:";
+$lang['what_is_autism_ul_1_li_1']="වස්තුන් සමග කටයුතු කිරිමේදී දක්වන දුර්වලතාවයන්  (උ.දා-: චලනයන් හදුනාගනිමේදී ඇති දුරුවලතා. )";
+$lang['what_is_autism_ul_1_li_2']="පංච ඉන්ද්‍රියන් මගින් ඇතිවන දුරුවලතාවයන්. (උ.දා-: ශබ්ද ඇසීමේ, කියවීමේ දුරුවල තත්වයන්ගෙන් පෙලීම.) ";
+$lang['what_is_autism_ul_1_li_3']="අධ්‍යාපන කටයුතුවල  සහ බුද්ධි මට්ටමේ ඇතිවන දුරුවලතා.
+ ";
+$lang['what_is_autism_ul_1_li_4']="පුනරවර්ති කටයුතු වලදී දක්වන දුරුවලතා. ";
+$lang['what_is_autism_text_4']="ළමුන්ගේ මොළය සංවර්ධනය වන අවධිය තුල සිටම ඔටිසම් රෝගී ගතිලක්ෂණ දැකිය හැකි අතර මෙය නිවැරදි ලෙස හදුනාගත හැකිවන්නේ අවුරුදු දෙකත්, තුනත් අතර වයසේ පසුවන විටය. ";
+$lang['what_is_autism_text_5']="ශ්‍රී ලංකාව තුල ඔටිසම් රෝගීන් වාර්තාවීමේ අගය විශාල වන අතර සෑම පුද්ගලයන් අනු තුනකටම එක් අයකු ලෙස අගයන් වාර්තාවී ඇත.";
+$lang['what_is_autism_title_2']="ඔටිසම් රෝගය වැළැක්විය යුත්තේ ඇයි? ";
+$lang['what_is_autism_text_6']="ඔටිසම් දීර්ඝ කාලයක් පුරා පවතින රෝගී තත්වයක් වන අතර පුර්ව ළමාවිය තුලදී හදුනා ගැනීම තුලින් පහසුවෙන් පාලනය කිරීමේ හැකියාවක් ඇත. එම නිසා මෙම රෝගී තත්වය හදුනාගැනීම තුලින් සිදුවන අපහසුතා පහසුවෙන් මගහැරිය හැකිනිසා රෝගය හදුනාගැනීම වැදගත් වේ.  ";
+$lang['what_is_autism_text_7']="ඔටිසම් රෝගය සදහා බලපානුලබන මුලික කරුණවන්නේ මොලයේ ඇති නියුරෝන සෛලවලට තොරතුරු හුවමාරු කරගැනීමේ කාර්යය සමග නිවැරදි ලෙස කටුතු කරගෙනයාමට ඇති නොහැකියාව වේ. මෙම තත්වය ඇති වීම සදහා නිශ්චිත හේතුවක් සොයාගෙන නොමැත. ඔටිසම් රෝගය මුලික වශයෙන්  කොටස් තුනකට බෙදා දැක්විය හැක.  
+<br> එම රෝග තත්වයන් Autism Spectrum, Asperger's Syndrome සහ Pervasive Developmental Disorder ලෙස දැක්විය හැක. ";
+$lang['what_is_autism_text_8']="වර්තමානය වනවිට ඔටිසම් සුලබ රෝග තත්වයක් බවට පත්වෙමින් ඇති අතර දියුණු , නොදියුණු සෑම රටක්තුලම  ඔටිසම් රෝගීන් දක්නට ඇත. ඔටිසම් සදහා ප්‍රතිකර්මයක් සොයාගෙන නොමැති අතර එය පාලනය කිරීමේ හැකියාවක් ඇත. ";
