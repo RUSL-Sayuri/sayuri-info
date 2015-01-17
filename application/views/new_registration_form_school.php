@@ -59,16 +59,24 @@ $this->load->view('partial/header');
 					 <label for="inputPassword1"><?php echo $r_u_c_l_14; ?></label><input type="password" class="form-control" id="exampleInputPassword1" />
 				</div>
                 <div class="form-group">
-					 <label for="confirmInputPassword1"><?php echo $r_u_c_l_15; ?></label><input type="password" class="form-control" id="exampleInputPassword1" />
+					 <label for="cofirmInputPassword1"><?php echo $r_u_c_l_15; ?></label><input type="password" class="form-control" id="exampleInputPassword1" />
 				</div>
                 
                 
-                
-                <div class="form-group">
-					 <label for="child_name"><?php echo $r_u_f_m_l_1; ?></label><input type="text" class="form-control" id="child_name" />
+                                <div class="form-group">
+					 <label for="school_name"><?php echo $r_u_s_s_l_1; ?></label><input type="text" class="form-control" id="school_name" />
 				</div>
                 <div class="form-group">
-					 <label for="child_birthday"><?php echo $r_u_f_m_l_2; ?></label><input type="text" class="form-control" id="child_birthday" />
+					 <label for="registered_number"><?php echo $r_u_s_s_l_2; ?></label><input type="text" class="form-control" id="registered_number" />
+				</div>
+                <div class="form-group">
+					 <label for="founded_year"><?php echo $r_u_s_s_l_3; ?></label><input type="text" class="form-control" id="founded_year" />
+				</div>
+                <div class="form-group">
+					 <label for="number_of_staff"><?php echo $r_u_s_s_l_4; ?></label><input type="text" class="form-control" id="number_of_staff" />
+				</div>
+                <div class="form-group">
+					 <label for="registed_children"><?php echo $r_u_s_s_l_5; ?></label><input type="text" class="form-control" id="registed_children" />
 				</div>
 				
 				 <button type="submit" class="btn btn-sm btn-primary active">Submit</button>

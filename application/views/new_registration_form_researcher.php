@@ -59,16 +59,23 @@ $this->load->view('partial/header');
 					 <label for="inputPassword1"><?php echo $r_u_c_l_14; ?></label><input type="password" class="form-control" id="exampleInputPassword1" />
 				</div>
                 <div class="form-group">
-					 <label for="confirmInputPassword1"><?php echo $r_u_c_l_15; ?></label><input type="password" class="form-control" id="exampleInputPassword1" />
+					 <label for="confirmPassword1"><?php echo $r_u_c_l_15; ?></label><input type="password" class="form-control" id="exampleInputPassword1" />
 				</div>
                 
                 
                 
                 <div class="form-group">
-					 <label for="child_name"><?php echo $r_u_f_m_l_1; ?></label><input type="text" class="form-control" id="child_name" />
+					 <label for="research_topic"><?php echo $r_u_r_l_1; ?></label><input type="text" class="form-control" id="research_topic" />
 				</div>
                 <div class="form-group">
-					 <label for="child_birthday"><?php echo $r_u_f_m_l_2; ?></label><input type="text" class="form-control" id="child_birthday" />
+					 <label for="university_institute"><?php echo $r_u_r_l_2; ?></label><input type="text" class="form-control" id="university_institute" />
+				</div>
+                <div class="form-group">
+					 <label for="reserch_in_brief"><?php echo $r_u_r_l_3; ?></label><input type="textfield" class="form-control" id="reserch_in_brief" />
+				</div>
+                <div class="form-group">
+					 <label for="inputFile"><?php echo $r_u_r_l_4; ?></label><input type="file" id="inputFile" />
+					
 				</div>
 				
 				 <button type="submit" class="btn btn-sm btn-primary active">Submit</button>
