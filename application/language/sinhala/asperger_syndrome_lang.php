@@ -1,15 +1,16 @@
 <?php
-$lang['asperger_syndrome_title_1'] = "Asperger Syndrome";
+$lang['asperger_syndrome_title_1'] = "ඇස්පර්ජර් තත්ත්වය";
 
-$lang['asperger_syndrome_text_1'] = "Asperger syndrome, also known as Asperger disorder (AD) or simply Asperger's, is an autism spectrum disorder (ASD) that is characterized by significant difficulties in social interaction and nonverbal communication, alongside restricted and repetitive patterns of behavior and interests. It differs from other autism spectrum disorders by its relative preservation of linguistic and cognitive development. Although not required for diagnosis, physical clumsiness and atypical (peculiar or odd) use of language are frequently reported.";
-$lang['asperger_syndrome_text_2'] = "සමහර දරුවන්ට අසාමාන්‍ය ගතිගුණ රටාවන් පිහිටා තිබේ. මෙවැනි ගතිගුණ උපතින්ම පිහිටා තිබුනත් මේවා මුලින්ම අප අවධානයට ලක්‌වන වයස් සීමාවන් විවිධ විය හැක. බොහෝවිට දෙමාපියන් මෙවැනි ගතිගුණ ස්වභාවික යයි සිතයි. ඔවුන් කලබල වන්නේ නොයෙක් ගැටළුකාරී හැසිරීම් මතුවීමට පටන් ගන්නා විටයි. පහත දැක්වෙන්නේ එවැනි ගතිගුණ ලැයිස්තුවකි. මෙම ගතිගුණ සමහරක් හෝ බොහොමයක් ඔබේ දරුවාට පිහිටා තිබිය හැක.
-";
+$lang['asperger_syndrome_text_1'] = "ඇස්පර්ජර් තත්ත්වය යනු අන්තර්ක්‍රියා සහ ක්‍රියාකාරී සන්නිවේදන දුර්වලතා මතු කරන ව්‍යාකුල තත්ත්වයකි.සාමාන්‍ය ඔටිසම් තත්ත්වයේදී ඇති වන හැසිරීම් වලට අමතරව ඇස්පර්ජර් තත්ත්වයේදී දක්නට ලැබෙන විශේෂ වෙනස්කමක් වනුයේ සුවිශේෂභාෂාමය සහ ඥාන හැකියාවන් ඒ පුද්ගලයන් තුළ පැවතීමයි.හදුනාගනිමේදී අත්‍යවශ්‍ය සාධකයක් නොවුනද, ඇස්පර්ජර් තත්ත්වය පෙන්නුම් කරන්නන් අතර ශරීර වෙනස්කම් (අසාමාන්‍ය ආකාරයට ඇවිදීම ආදී) ආදිය බොහෝ විට වාර්තා වී ඇත."; 
+$lang['asperger_syndrome_text_2'] = "සමහර දරුවන්ට අසාමාන්‍ය ගතිගුණ රටාවන් පිහිටා තිබේ. මෙවැනි ගතිගුණ උපතින්ම පිහිටා තිබුනත් මේවා මුලින්ම අප අවධානයට ලක්‌වන වයස් සීමාවන් විවිධ විය හැක. බොහෝවිට දෙමාපියන් මෙවැනි ගතිගුණ ස්වභාවික යයි සිතයි. ඔවුන් කලබල වන්නේ නොයෙක් ගැටළුකාරී හැසිරීම් මතුවීමට පටන් ගන්නා විටයි. පහත දැක්වෙන්නේ එවැනි ගතිගුණ ලැයිස්තුවකි. මෙම ගතිගුණ සමහරක් හෝ බොහොමයක් ඔබේ දරුවාට පිහිටා තිබිය හැක. ";
 $lang['asperger_syndrome_text_3'] = "මේ තත්වය ගතිගුණ රටාවක් මිස මානසික රෝගී තත්වයක් නොවන බව නැවතත් මතක් කල යුතුය. ඉංග්‍රීසි බසින් මෙය ඇස්පර්ගර්(Asperger) යනුවෙන් හැදින්වේ.";
 $lang['asperger_syndrome_text_4'] = "මෙවැනි ගතිගුණ ජීවිත කාලයක් තුල පැවතිය හැක. කුඩා කලදී  හදුනා ගැනීමෙන් සමහර ගැටළුකාරී ගතිගුණ යම් තරමකට වෙනස් කිරිමට දෙමාපියන්ට හැකියාව ඇත.";
 
-$lang['asperger_syndrome_ul_1_li_1'] = "බොහෝ විට මුහුණ බලා කථා කිරීමට මැලිකමක් දක්වයි.";;;
-$lang['asperger_syndrome_ul_1_li_2'] = "පාසැලේදී  සිදුවන දේ ගැන දෙමාපියන් සමග කතාබහ නොකරයි.";;
+$lang['asperger_syndrome_ul_1_li_1'] = "බොහෝ විට මුහුණ බලා කථා කිරීමට මැලිකමක් දක්වයි.";
+
+$lang['asperger_syndrome_ul_1_li_2'] = "පාසැලේදී  සිදුවන දේ ගැන දෙමාපියන් සමග කතාබහ නොකරයි.";
 $lang['asperger_syndrome_ul_1_li_3'] = "හුරුපුරුදු රටාවන් වෙනස් කිරීමට තද මැලිකමක් දක්වයි. වෙනස් වුවහොත් තදින් කේන්ති ගනී.";
+
 $lang['asperger_syndrome_ul_1_li_4'] = " ඔවුන් ප්‍රියකරන විෂයක්  හෝ අංශයක් පිළිබඳ තියුණු අවධානයක් යොමුකරයි. හැමවිටම ඒ ගැන කථාබහ කරයි. පුළුල් ලෙස තොරතුරු එකතු කරයි .
 ";
 $lang['asperger_syndrome_ul_1_li_5'] = "විහිළු තහළු නොතේරේ. බොහෝ විට ඒවා වරදවා තේරුම් ගනී.";
