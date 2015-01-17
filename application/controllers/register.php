@@ -26,7 +26,7 @@ class Register extends CI_Controller {
             'common_label_15' => $this->lang->line('register_user_common_label_15'),
             'family_member_label_1' => $this->lang->line('register_user_family_member_label_1'),
             'family_member_label_2' => $this->lang->line('register_user_family_member_label_2'),
-            'family_member_lebel_3' => $this->lang->line('register_user_family_member_lebel_3'),
+            'family_member_label_3' => $this->lang->line('register_user_family_member_label_3'),
         );
         $this->load->view('register/family_member', $view_data);
     }
