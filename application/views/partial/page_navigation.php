@@ -59,7 +59,7 @@ $this->lang->load('page_navigation', $language);
                 <a href="#"><?php echo $this->lang->line('navbar_join_us'); ?></a>
             </li>
             <li>
-                <a href="<?php echo base_url('index.php/about_us'); ?>"><?php echo $this->lang->line('about_us'); ?></a>
+                <a href="<?php echo base_url('index.php/about_us'); ?>"><?php echo $this->lang->line('navbar_about_us'); ?></a>
             </li>
         </ul>
         <form class="navbar-form navbar-left pull-right" role="search">
