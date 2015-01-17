@@ -18,16 +18,16 @@ $this->load->view('partial/header');
                     </h4>
                     <ul>
                         <li>
-                            <a href="<?php echo base_url('index.php?register/family_member'); ?>">Family Member</a>
+                            <a href="<?php echo base_url('index.php?/register/family_member'); ?>">Family Member</a>
                         </li>
                         <li>
-                            <a href="<?php echo base_url('index.php?register/professional'); ?>">Professional</a>
+                            <a href="<?php echo base_url('index.php?/register/professional'); ?>">Professional</a>
                         </li>
                         <li>
-                            <a href="<?php echo base_url('index.php?register/researcher'); ?>">Researcher</a>
+                            <a href="<?php echo base_url('index.php?/register/researcher'); ?>">Researcher</a>
                         </li>
                         <li>
-                            <a href="<?php echo base_url('index.php?register/special_school'); ?>">Special School</a>
+                            <a href="<?php echo base_url('index.php?/register/special_school'); ?>">Special School</a>
                         </li>
                     </ul>
                 </div> 
