@@ -32,11 +32,11 @@ $this->load->view('partial/header');
                     </ul>
                 </div> 
                 <div class="well well-sm">
-                    <img  class="center-block img-rounded img-responsive" src="<?php echo base_url('assests/images/info-portal/app_logo_png.png'); ?>"/>
+                    <img  class="center-block img-rounded img-responsive" style="cursor: pointer;" src="<?php echo base_url('assests/images/info-portal/app_logo_png.png'); ?>"/>
 
                 </div>
                 <div class="well well-sm">
-                    <img  class="center-block img-rounded img-responsive" src="<?php echo base_url('assests/images/info-portal/forum_logo_png.png'); ?>"/>
+                    <img  class="center-block img-rounded img-responsive" style="cursor: pointer;" src="<?php echo base_url('assests/images/info-portal/forum_logo_png.png'); ?>"/>
 
                 </div>
             </div>
