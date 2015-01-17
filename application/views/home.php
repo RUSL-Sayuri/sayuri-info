@@ -54,35 +54,38 @@ $this->load->view('partial/header');
                             </ol>
                             <div class="carousel-inner">
                                 <div class="item active">
-                                    <img alt="" src="http://lorempixel.com/1600/500/sports/1" />
+                                    <img alt="" src="<?php echo base_url('assests/images/info-portal/carousel_1.jpg'); ?>" />
                                     <div class="carousel-caption">
                                         <h4>
-                                            First Thumbnail label
+                                            <?php echo $carousel_quote_1; ?> 
                                         </h4>
                                         <p>
-                                            Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+                                            <?php echo $carousel_quote_author_1; ?>
                                         </p>
                                     </div>
                                 </div>
                                 <div class="item">
-                                    <img alt="" src="http://lorempixel.com/1600/500/sports/2" />
+                                    <img alt="" src="<?php echo base_url('assests/images/info-portal/carousel_2.jpg'); ?>" />
                                     <div class="carousel-caption">
                                         <h4>
-                                            Second Thumbnail label
+                                            <?php echo $carousel_quote_2; ?> 
                                         </h4>
                                         <p>
-                                            Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+                                            <?php echo $carousel_quote_author_2; ?>
+                                             
                                         </p>
                                     </div>
                                 </div>
                                 <div class="item">
-                                    <img alt="" src="http://lorempixel.com/1600/500/sports/3" />
+                                    <img alt="" src="<?php echo base_url('assests/images/info-portal/carousel_3.jpg'); ?>" />
                                     <div class="carousel-caption">
                                         <h4>
-                                            Third Thumbnail label
+                                            <?php echo $carousel_quote_3; ?> 
+                                            
                                         </h4>
                                         <p>
-                                            Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+                                            <?php echo $carousel_quote_author_3; ?>
+                                            
                                         </p>
                                     </div>
                                 </div>

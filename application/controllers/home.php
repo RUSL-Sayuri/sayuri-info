@@ -31,6 +31,14 @@ class Home extends CI_Controller {
             'model_what_is_autism_title' => $this->lang->line('what_is_autism_title'),
             'model_what_is_autism_text_1' => $this->lang->line('what_is_autism_text_1'),
             'model_what_is_autism_text_2' => $this->lang->line('what_is_autism_text_2'),
+            
+            'carousel_quote_1' => $this->lang->line('carousel_quote_1'),
+            'carousel_quote_2' => $this->lang->line('carousel_quote_2'),
+            'carousel_quote_3' => $this->lang->line('carousel_quote_3'),
+            
+            'carousel_quote_author_1' => $this->lang->line('carousel_quote_author_1'),
+            'carousel_quote_author_2' => $this->lang->line('carousel_quote_author_2'),
+            'carousel_quote_author_3' => $this->lang->line('carousel_quote_author_3'),
         );
         $this->load->view('home', $view_data);
     }
