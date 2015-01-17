@@ -18,26 +18,26 @@ $this->load->view('partial/header');
                     </h4>
                     <ul>
                         <li>
-                            <a href="new_registration_form_parent.php">Family Member</a>
+                            <a href="<?php echo base_url('index.php?register/family_member'); ?>">Family Member</a>
                         </li>
                         <li>
-                            <a href="#">Professional</a>
+                            <a href="<?php echo base_url('index.php?register/professional'); ?>">Professional</a>
                         </li>
                         <li>
-                            <a href="#">Researcher</a>
+                            <a href="<?php echo base_url('index.php?register/researcher'); ?>">Researcher</a>
                         </li>
                         <li>
-                            <a href="#">Special School</a>
+                            <a href="<?php echo base_url('index.php?register/special_school'); ?>">Special School</a>
                         </li>
                     </ul>
                 </div> 
                 <div class="well well-sm">
                     <img  class="center-block img-rounded img-responsive" src="<?php echo base_url('assests/images/info-portal/app_logo_png.png'); ?>"/>
-                    
+
                 </div>
                 <div class="well well-sm">
                     <img  class="center-block img-rounded img-responsive" src="<?php echo base_url('assests/images/info-portal/forum_logo_png.png'); ?>"/>
-                    
+
                 </div>
             </div>
             <div class="col-md-9 column">
