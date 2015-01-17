@@ -18,3 +18,9 @@ $lang['carousel_quote_3']="“මම ඇස්පර්ජර් තත්ත්
 $lang['carousel_quote_author_1']="ආචාර්ය ග්‍රන්දින් ";
 $lang['carousel_quote_author_2']=" ඇල්බර්ට් අයින්ස්ටයින් ";
 $lang['carousel_quote_author_3']="ටෝනි අට්වුඩ් ";
+
+$lang['home_i_am']="මම ";
+$lang['home_family_member']="පවුලේ අයෙක් ";
+$lang['home_professional']="වෘත්තිකයෙක් ";
+$lang['home_researcher']="පරේක්ෂකයෙක් ";
+$lang['home_special_school']="විශේෂ පාසලක් ";

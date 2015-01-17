@@ -39,6 +39,12 @@ class Home extends CI_Controller {
             'carousel_quote_author_1' => $this->lang->line('carousel_quote_author_1'),
             'carousel_quote_author_2' => $this->lang->line('carousel_quote_author_2'),
             'carousel_quote_author_3' => $this->lang->line('carousel_quote_author_3'),
+            
+            'home_i_am' => $this->lang->line('home_i_am'),
+            'home_family_member' => $this->lang->line('home_family_member'),
+            'home_professional' => $this->lang->line('home_professional'),
+            'home_researcher' => $this->lang->line('home_researcher'),
+            'home_special_school' => $this->lang->line('home_special_school'),
         );
         $this->load->view('home', $view_data);
     }

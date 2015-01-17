@@ -14,3 +14,10 @@ $lang['carousel_quote_3']="“I see people with Asperger’s syndrome as a brigh
 $lang['carousel_quote_author_1']="Dr. Temple Grandin";
 $lang['carousel_quote_author_2']="Albert Einstein";
 $lang['carousel_quote_author_3']="Tony Attwood";
+
+$lang['home_i_am']="I am a";
+$lang['home_family_member']="Family Member";
+$lang['home_professional']="Professional";
+$lang['home_researcher']="Researcher";
+$lang['home_special_school']="Special School";
+

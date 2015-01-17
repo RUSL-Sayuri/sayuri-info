@@ -14,20 +14,20 @@ $this->load->view('partial/header');
             <div class="col-md-3 column">
                 <div class="well well-sm">
                     <h4>
-                        I am a;
+                        <?php echo $home_i_am; ?>
                     </h4>
                     <ul>
                         <li>
-                            <a href="<?php echo base_url('index.php/register/family_member'); ?>">Family Member</a>
+                            <a href="<?php echo base_url('index.php/register/family_member'); ?>"><?php echo $home_family_member; ?></a>
                         </li>
                         <li>
-                            <a href="<?php echo base_url('index.php/register/professional'); ?>">Professional</a>
+                            <a href="<?php echo base_url('index.php/register/professional'); ?>"><?php echo $home_professional; ?></a>
                         </li>
                         <li>
-                            <a href="<?php echo base_url('index.php/register/researcher'); ?>">Researcher</a>
+                            <a href="<?php echo base_url('index.php/register/researcher'); ?>"><?php echo $home_researcher; ?></a>
                         </li>
                         <li>
-                            <a href="<?php echo base_url('index.php/register/special_school'); ?>">Special School</a>
+                            <a href="<?php echo base_url('index.php/register/special_school'); ?>"><?php echo $home_special_school; ?></a>
                         </li>
                     </ul>
                 </div> 
