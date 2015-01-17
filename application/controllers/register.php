@@ -56,7 +56,7 @@ class Register extends CI_Controller {
         );
         $this->load->view('register/professional', $view_data);
     }
-    
+     
     public function researcher(){
         $language = $this->input->cookie('lang');
         $this->lang->load('register', $language);
