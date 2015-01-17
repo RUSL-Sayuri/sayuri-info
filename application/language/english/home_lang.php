@@ -14,3 +14,7 @@ $lang['carousel_quote_3']="“I see people with Asperger’s syndrome as a brigh
 $lang['carousel_quote_author_1']="Dr. Temple Grandin";
 $lang['carousel_quote_author_2']="Albert Einstein";
 $lang['carousel_quote_author_3']="Tony Attwood";
+
+$lang['email_subscribe_title'] = "Sayuri Subscription.";
+$lang['email_subscribe_error_0'] = "You have successfully subscribed to the Sayuri - Information Portal on Autism Spectum Disorder. Latest news and updates from Sayuri will receive you via E-mail.";
+$lang['email_subscribe_error_1062'] = "Sorry, the E-Mail address you entered is already subscribed";

@@ -99,7 +99,7 @@ $this->load->view('partial/header');
             <div class="col-md-3 column">
                 <div class="well well-sm">
                     <h4>Contact us</h4>
-                    <form class="form-horizontal" role="form" method="POST" action="<?php echo base_url('index.php/home/email_subscribe'); ?>">
+                    <form id="form_subscribe_email" class="form-horizontal" role="form" onsubmit="return validate_subscribe_email();" method="POST" action="<?php echo base_url('index.php/home/email_subscribe'); ?>">
                         <div class="form-group">
                             <label for="subscribe_email" class="col-sm-2 control-label">Email</label>
                             <div class="col-sm-10">
@@ -156,6 +156,41 @@ $this->load->view('partial/header');
         </div>
     </div>
     <!-- Model End What_is_autism -->
-    <?php
+    <?php if ($email_subscribe) {
+        ?>
+        <!-- Modal Email Subscription-->
+        <div class="modal fade" id="email_subscription" tabindex="-1" role="dialog" aria-labelledby="email_subscription_label" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title text-center" id="email_subscription_label"><?php echo $email_subscribe_title; ?></h4>
+                    </div>
+                    <div class="modal-body">
+                        <p class="text-center"><?php echo $email_subscribe_message; ?></p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Model End Email Subscription-->
+        <?php
+    }
     $this->load->view('partial/footer');
+    if ($email_subscribe) {
+        ?>
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $('#email_subscription').modal();
+            });
+        </script>
+        <?php
+    }
     ?>
+    <script type="text/javascript" src="<?php echo base_url('assests/js/jquery.validate.js'); ?>"></script>
+    <script type="text/javascript" src="<?php echo base_url('assests/js/additional-methods.js'); ?>"></script>
+    <script type="text/javascript">
+        $('#form_subscribe_email').validate();
+    </script>
