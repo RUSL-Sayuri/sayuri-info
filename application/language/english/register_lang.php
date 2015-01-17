@@ -18,7 +18,7 @@ $lang['register_user_common_label_15']="Confirm Password";
 
 $lang['register_user_family_member_label_1']="Name of the Child";
 $lang['register_user_family_member_label_2']="Birthday of the Child";
-$lang['register_user_family_member_lebel_3']="Add Another Child";
+$lang['register_user_family_member_label_3']="Add Another Child";
 
 $lang['register_user_professional_label_1']="Designation";
 $lang['register_user_professional_label_2']="Working Place";
