@@ -21,3 +21,6 @@ $lang['home_professional']="Professional";
 $lang['home_researcher']="Researcher";
 $lang['home_special_school']="Special School";
 
+$lang['email_subscribe_title'] = "Sayuri Subscription.";
+$lang['email_subscribe_error_0'] = "You have successfully subscribed to the Sayuri - Information Portal on Autism Spectum Disorder. Latest news and updates from Sayuri will receive you via E-mail.";
+$lang['email_subscribe_error_1062'] = "Sorry, the E-Mail address you entered is already subscribed";

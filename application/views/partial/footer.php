@@ -7,5 +7,6 @@
     <script src="<?php echo base_url('assests/js/bootstrap-switch.js');?>"></script>
     <script src="<?php echo base_url('assests/js/jquery.tagsinput.js');?>"></script>
     <script src="<?php echo base_url('assests/js/jquery.placeholder.js');?>"></script>
+    <script src="<?php echo base_url('assests/js/common_functions.js');?>"></script>
   </body>
 </html>
