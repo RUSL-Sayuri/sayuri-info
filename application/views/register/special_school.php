@@ -17,7 +17,7 @@ $this->load->view('partial/header');
 			<form role="form">
             <h3><?php echo $common_label_1; ?></h3>
             <div class="form-group">
-					 <label for="first_name"><?php echo $r_u_c_l_2; ?></label><input type="text" class="form-control" id="first_name" />
+					 <label for="first_name"><?php echo $common_label_2; ?></label><input type="text" class="form-control" id="first_name" />
 				</div>
                 <div class="form-group">
 					 <label for="last_name"><?php echo $common_label_3; ?></label><input type="text" class="form-control" id="last_name" />
