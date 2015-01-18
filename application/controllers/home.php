@@ -29,6 +29,7 @@ class Home extends CI_Controller {
             'join_us' => $this->lang->line('home_join_us'),
             'what_is_autism' => $this->lang->line('home_what_is_autism'),
             'resources' => $this->lang->line('home_resources'),
+            'subscribe' => $this->lang->line('home_subscribe'),
             'model_what_is_autism_title' => $this->lang->line('what_is_autism_title'),
             'model_what_is_autism_text_1' => $this->lang->line('what_is_autism_text_1'),
             'model_what_is_autism_text_2' => $this->lang->line('what_is_autism_text_2'),

@@ -98,7 +98,7 @@ $this->load->view('partial/header');
         <div class="row clearfix">
             <div class="col-md-3 column">
                 <div class="well well-sm">
-                    <h4>Contact us</h4>
+                    <h4><?php echo $subscribe; ?></h4>
                     <form id="form_subscribe_email" class="form-horizontal" role="form" onsubmit="return validate_subscribe_email();" method="POST" action="<?php echo base_url('index.php/home/email_subscribe'); ?>">
                         <div class="form-group">
                             <label for="subscribe_email" class="col-sm-2 control-label">Email</label>
@@ -108,7 +108,7 @@ $this->load->view('partial/header');
                         </div>
                         <div class="form-group">
                             <div class="col-sm-offset-2 col-sm-10">
-                                <button type="submit" class="btn btn-default">Subscribe</button>
+                                <button type="submit" class="btn btn-default"><?php echo $subscribe; ?></button>
                             </div>
                         </div>
                     </form>
