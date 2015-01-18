@@ -1,65 +1,90 @@
 <?php
-$lang['treatments_title_1']='Treatments';
-$lang['treatments_title_2']='Behavior and Development Programs';
-$lang['treatments_title_3']='Education and Learning Programs';
-$lang['treatments_title_4']='Medications';
-$lang['treatments_title_5']='Other Treatments and Therapies';
-$lang['treatments_title_6']='Speech and language therapy';
-$lang['treatments_title_7']='Art and Music therapy';
-$lang['treatments_title_8']='Occupational therapy';
-$lang['treatments_title_9']='Physical therapy';
-$lang['treatments_title_10']='Treatments to be done at home';
+$lang['treatments_title_1']='ප්‍රතිකාර';
+$lang['treatments_title_2']='හැසිරීම් රටා හා සංවර්ධන වැඩසටහන්  ';
+$lang['treatments_title_3']='අධ්‍යාපනික හා ඉගෙනුම් වැඩසටහන්';
+$lang['treatments_title_4']='ප්‍රතිකාර ක්‍රම  ';
+$lang['treatments_title_5']='අනෙකුත් ප්‍රතිකාර චිකිත්සා ක්‍රම ';
+$lang['treatments_title_6']='භාෂා හා කථන චිකිත්සාව.';
+$lang['treatments_title_7']='චිත්‍ර කළා හා සංගීතමය චිකිත්සා ';
+$lang['treatments_title_8']='වෘතිය චිකිත්සාව.';
+$lang['treatments_title_9']='කායික චිකිත්සාව.
+
+';
+$lang['treatments_title_10']='නිවසේදී ලබාදිය හැකි ප්‍රතිකර්ම. ';
 
 
-$lang['treatments_text_1']='There is currently no “cure” for autism spectrum disorder (ASD). However, a range of specialist education and behavioural programmes (often referred to as interventions) can be effective in improving the skills of children with ASD.';
-$lang['treatments_text_2']='Some researchers group treatments for ASD into different categories (see figure below). Each category focuses on a type of treatment or on a specific set of symptoms and behaviors that it tries to help.';
-$lang['treatments_text_3']='Because every child with an ASD may show different types of symptoms, a family may need to choose from the available treatments,therapies, and programs based on the child’s needs. The treatment plan for your child may have some of each of these treatment categories.';
-$lang['treatments_text_4']='These programs address social skills, attention,sleep, play, anxiety, parent interaction,challenging behaviors, and other activities. “Early intensive behavioral intervention”programs use specially trained clinicians who work with parents and young children for up to 25 hours every week. Early intensive behavioral intervention programs can last as long as 12 weeks to 3 years.';
-$lang['treatments_text_5']='These programs are offered in schools or other learning centers. They focus on learning and reasoning skills and “whole life” approaches. In Sri Lanka there are few schools which provides this type of education and most of them are limited to main cities such as colombo and kandy.';
-$lang['treatments_text_6']='Medications are provided by the consultant doctors who diagnose the children with autism and medications are provided for various reasons such as to avoid digestion problems, to reduce hyperactive behaviors, etc. to obtain this type of treatment the children should be consulted by a specialist consultant.';
-$lang['treatments_text_7']='There are lot more treatments and therapies other than the ones mentioned above which can be used effectively to address the behaviors and symptoms of autistic children. most of which can be accessed easily than other treatment methods available.some of them are:';
-$lang['treatments_text_8']='Since people with ASDs have deficits in social communication, speech therapy is an important treatment option which allows the child to better express his/ her needs or wants.Some individuals with ASD are nonverbal and unable to develop verbal communication skills, and the use of gestures, sign language, and picture communication programs are often useful tools to improve their abilities to communicate.';
-$lang['treatments_text_9']='Art and music are particularly useful in sensory integration, providing tactile, visual and auditory stimulation. Music therapy is good for speech development and language comprehension. Songs can be used to teach language and increase the ability to put words together. Art therapy provides a nonverbal, symbolic way means of self-expression, and can develop fine motor skills.';
-$lang['treatments_text_10']='Occupational therapy is often used as a treatment for the sensory integration issues associated with ASDs. It is also used to help teach life skills that involve fine-motor movements, such as dressing, using utensils, cutting with scissors, and writing. OT works to improve the individual’s quality of life and ability to participate fully in daily activities. Each occupational therapy program is based on individual evaluations and goals.';
-$lang['treatments_text_11']='Physical therapy is used to improve gross motor skills and handle sensory integration issues, particularly those involving the individual’s ability to feel and be aware of his body in space. Similar to OT, physical therapy is used to improve the individual’s ability to participate in everyday activities. PT works to teach and improve skills such as walking, sitting, coordination, and balance. Physical therapy is most effective when integrated in an early intervention program.';
-$lang['treatments_text_12']='Home is the place where all children spend a lot of time and the place where they learn things first. mothers can make a great deal of change in the childrens lives with their effective contribution. When your child is recognised with autism, carefully go through his/her behaviours, analyze them and follow the treatments which suits your child out of the following.(these are carefully designed set of treatments by the autism center in lady ridgeway hospital colombo)';
+$lang['treatments_text_1']='ඔටිසම් රෝගය සඳහා ස්ථිරවූ ප්‍රතිකාර ක්‍රමයක් මේ වනතුරුත් සොයාගෙන නොමැත. ඒ කෙසේවෙතත් මේ සඳහා වූ විශේෂිත අධ්‍යාපනික ක්‍රමවේදයන් හා විශේෂිතවූ අධ්‍යාපනික ක්‍රියාකාරකම් වැඩසටහන් මගින් ඔවුන්ගේ හැකියාවන් වර්ධනය කල හැක. ';
+$lang['treatments_text_2']='රෝගය පිලිබඳ විශේෂඥයන් විසින් රෝගය පිලිබඳ ප්‍රතිකාර ක්‍රම පහත ආකාරයෙන් වර්ග කර ඇත .(පහත රූපසටහන බලන්න) එම ප්‍රතිකාර ක්‍රමයන් එම ප්‍රතිකාර ක්‍රම වර්ගය හෝ විශේෂිත වූ රෝග ලක්ෂණ අනුව හෝ එම ප්‍රතිකාර ක්‍රමය මගින් ප්‍රතිකාර කරනු ලබන දරුවන්ගේ හැසිරීම් රටාව අනුව වර්ගීකරණය කොට ඇත. ';
+$lang['treatments_text_3']='සෑම ඔටිසම් දරුවකුම එකිනෙකට වෙනස් වූ රෝග ලක්ෂණ වලින් යුතු වන බැවින් දෙමව්පියන් විසින් දරුවාගේ රෝග ලක්ෂණ අනුව අදාළ ප්‍රතිකාර ක්‍රම හා ප්‍රතිකාර වැඩසටහන් තොරා බේරා ගත යුතුය. ඔබගේ දරුවාගේ ප්‍රතිකාර සඳහා එම ප්‍රතිකාර විධි වලින් එකක් හෝ කිහිපයක් දායක විය හැක. ';
+$lang['treatments_text_4']='මෙම වැඩසටහන් මගින් මෙම දරුවන්ගේ සාමාජයීය හැකියා , අවධානය ලබාගැනීම , නින්ද , ක්‍රීඩාමය ක්‍රියාකාරකම් , සාංකාව නැතිකිරීම , දෙමව්පියන් සමග ඇති සම්බන්ධය වර්ධනය කිරීම , අභියෝගාත්මක හැසිරීම රටා සංවර්ධනය සහ අනෙකුත් ක්‍රියාකාරකම් වර්ධනය කෙරෙනු ඇත. “පූර්ව අවධි හැසිරීම් රටා තීව්‍ර කිරීම් ” වැඩසටහන් විශේෂිත පුහුණුවක් ලැබූ චිකිත්සකයින් විසින් දරුවන්ගේ දෙමව්පියන්ගේද සහය ඇතිව කරනු ලබන අතර මෙමගින් කුඩා දරුවන්ව සතියකට පැය 25 ආසන්න කාලයක් පුහුණු කටයුතු කරනු ඇත.මෙම වැඩසටහන් සති 12 කාලයක සිට වසර 3ක් දක්වා කාලයක් සදහා පැවැත්විය හැක.';
+$lang['treatments_text_5']='මෙම වැඩසටහන් පාසල් මගින් හෝ අදාළ ඉගෙනුම් මධ්‍යස්ථාන මගින් සිදුකරනු ලබයි. මම වැඩසටහන් මගින් ඉගෙනුම් , තාර්කික හා ජිවනමය හැකියාවන් සඳහා අවධානය යොමු කරනු ලබයි. මේ ආකාරයේ  ඉගෙනුම් ක්‍රමයක් කරනු ලබන පාසල් කිහිපයක් පමණක් ශ්‍රී ලංකාව තුල පවතී. ඉන් බොහොමයක් දිවයිනේ ප්‍රධාන නගර වන කොළඹ හා මහනුවර ආශ්‍රිත ප්‍රදේශ තුල පවතී.';
+$lang['treatments_text_6']='රෝගය සම්බන්ද විශේෂඥ වෛද්‍ය වරුන් විසින් දරුවාගේ රෝගී තත්වය හඳුනාගෙන ඊට අදාළව ප්‍රතිකාර ක්‍රම නියම කරනු ලබයි. ආහාර ජීරණ අපහසුතා , අධි ක්‍රියාකාරිබව ආදී විවිදාකාර ගැටළු ඔවුනට විය හැකිය. මෙවැනි ගැටළු විශේෂයෙන් හඳුනා ගැනීම සඳහා විශේෂඤ වෛද්‍යවරයකුගේ සහය අවශ්‍යවේ. ';
+$lang['treatments_text_7']='ඔටිසම් දරුවන්ගේ හැසිරීම් රටා හා රෝගී ලක්ෂණ සඳහා ඉහත සඳහන් ප්‍රතිකාර හා චිකිත්සා ක්‍රමයන්ට අමතරව තවත් බොහෝ ප්‍රතිකාර ක්‍රම ඇත. ඒ බොහොමයක් ඉහත ක්‍රමයන්ට වඩා වඩාත් පහසුවෙන් ලබා ගත හැකිය. ඒවා නම්';
+$lang['treatments_text_8']='සංනිවේදනයේදී දක්වන දුර්වලතා ඔටිසම් රෝගයෙන් පෙළෙනන් සඳහා වූ පොදු ලක්ෂණයකි. එබැවින් දරුවාගේ අවශ්‍යතා හා අදහස් ප්‍රකාශ කිරීම සඳහා භාෂා හා කථන චිකිත්සාව වඩාත් උපකාරී වෙයි. 
+ඇතැම් ඔටිසම් රෝගී දරුවන්ගේ  වාචික හැකියාවන් දියුණු කර ගැනීම ඉතා අසීරු කාර්යයකි. එබැවින් ඔවුන්ගේ හැකියාවන් වර්ධනය කිරීම සඳහා සංඤා භාෂාව විවිධ හැඩතල හෝ පින්තුර මගින් සංනිවේදන ක්‍රියාකාරකම් ඉතා සීඝ්‍ර ලෙස ඔවුන්ගේ හැකියාවන් වර්ධනය කර ගැනීමට උපකාරී වෙයි. 
+';
+$lang['treatments_text_9']='ඉන්ද්‍රිය සන්වරතාව සදහා උපකාරීවේ. එනම් ඇසීම් දැකීම් සහ ස්පර්ශය තුලින් ඒකාග්‍ර තාවය සදහා උපකාරීවේ.
+සංගීත කටයුතු මගින් සිසුන්ගේ කථන හා භාෂාමය හැකියාවන් දියුණු කිරීමට උපකාරීවේ. එමෙන්ම මෙම චිකිත්සක ක්‍රමය ආත්මවිශ්වාසය වැඩිදියුණු කිරීම සදහාද ඉවහල්වේ.
+';
+$lang['treatments_text_10']='මෙම ක්‍රමය පුද්ගලයාගේ අරමුණට අනුව වෙනස්වීමට ලක්වේ. මෙම ක්‍රමය මගින් එදිනෙදා වැඩ කරගැනීමට අවශ්‍ය හැකියාවන් වර්ධනය කරගැනීම සදහා උපකාරීවේ.(උ.දා -: ලිවීම සදහා හුරුකිරීම, කතුරකින් කැපීමට හුරුකිරීම වැනි ක්‍රියාකාරකම් දැක්වියහැක.) පුද්ගලයන්ගේ එදිනෙදා කටයුතු සාර්ථක ලෙස ඉටුකරගැනීම සදහා මෙම ක්‍රමය උපකාරවන අතර පුද්ගල හැකියා වර්ධනයට ඉවහල් වේ.';
+$lang['treatments_text_11']='කායික චිකිත්සාව පුද්ගලයන්ගේ හැකියාවන් සහ එදිනෙදා වැඩ කටයුතු සාර්ථකව පවත්වාගෙන යාම සදහා උපකාරීවේ. මෙම ප්‍රතිකාර ක්‍රමයේදී ඇවිදීම, දිවීම, ඉදාගැනීම වැනි කුසලතා දියුණු කිරීම සදහාත් ශරීරයේ සමබරතාව පවත්වාගෙන යෑම සදහා උපකාරීවේ. මෙම ප්‍රතිකාර ක්‍රමය සාර්ථක, කාර්යක්‍ෂම ක්‍රමයක් ලෙස දැක්විය හැක. ';
+$lang['treatments_text_12']='දරුවන් වැඩිලෙස ගැවසෙන ස්ථානය නිවස වේ. එම නිසා දරුවන්ට ප්‍රතිකාර ලබදිය හැකි එක් ස්ථානයක් ලෙස නිවස හදුන්වා දිය හැක. විශේෂයෙන්ම දෙමාපියන්ගේ අදීක්ෂණය යටතේ, දරුවාගේ චරිත සොබාවය හා හැකියාවන් අවබෝධ කොට ප්‍රතිකාර කිරීමට හැකිවීම විශේෂ ලක්ෂණයක් ලෙස දැක්විය හැක. ඔබගේ දරුවා ගේ ලක්ෂණ අනුව ගැලපෙන ලෙස පහත ක්‍රියාකාරකම් වල නිරතවීමේ හැකියාවක් ඇත. (these are carefully designed set of treatments by the autism center in lady ridgeway hospital colombo)             t  00 ';
         
-$lang['treatments_ul_1_li_1']='Acupuncture';        
-$lang['treatments_ul_1_li_2']='Vitamins and mineral supplements';        
-$lang['treatments_ul_1_li_3']='Massage therapy';        
-$lang['treatments_ul_1_li_4']='The Picture Exchange Communication System';        
+$lang['treatments_ul_1_li_1']='කටු චිකිත්සාව.';        
+$lang['treatments_ul_1_li_2']='විටමින් හා කණිජ ලවණ ලබාදීම.';        
+$lang['treatments_ul_1_li_3']='සම්භාහන ප්‍රතිකාර.';        
+$lang['treatments_ul_1_li_4']='පින්තූර මගින් සන්නිවේදනය.';        
 $lang['treatments_ul_1_li_5']='Responsive Prelinguistic Milieu Teaching';        
-$lang['treatments_ul_1_li_6']='Sensory integration therapy';
+$lang['treatments_ul_1_li_6']='ඒකාග්‍ර සංවේදිතා චිකිත්සාව.';
 
 
-$lang['treatments_ol_1_li_1']='Bring an object(a toy) to your eye level and make noise of it or sway it.<b>Repeat this until the child looks at your face as a response.</b> ';
-$lang['treatments_ol_1_li_2']='Practise the above activity with different toys and objects.ex: When the child looks at the face blowing soap bubbles, bringing colourful objects.';
-$lang['treatments_ol_1_li_3']='Before you give something to your child bring it to your eye level and ask whether the child wants it. Give the object to the child soon as he/she asks for it looking at your face.ex: When giving biscuits bring it to <b>your eye level</b> and ask “Do you want biscuit?” Give the biscuit only when they respond to it looking at your face.';
-$lang['treatments_ol_1_li_4']='Blow soap balls.child will enjoy it following behind the soap balls.avoid blowing soap balls till the child looks at your face and ask for more.';
-$lang['treatments_ol_1_li_5']='Cover your face with a cloth and go in front of the child, remove the cloth suddenly and surprise the child.take the attention of the child.practise this to your child. Repeat again and again.';
-$lang['treatments_ol_1_li_6']='Cover your face with a mask and take the attention of the child.when the child looks at your face remove the mask.repeat it several times.';
-$lang['treatments_ol_1_li_7']='Paste a dot (or something shining) in your forehead and make the child look at it.';
-$lang['treatments_ol_1_li_8']='Keep the favourite toys of the child in a place where it is difficult to take but can easily be seen (ex: top of a height table) then make the child look at it.';
-$lang['treatments_ol_1_li_9']='Paste two pictures of the food that kid is fond of on your chins. Then ask the child about his choice while keeping his/her attention on you.';
-$lang['treatments_ol_1_li_10']='Train your child to point the things that he/she wants.';
-$lang['treatments_ol_1_li_11']='When playing with the child bend down and have your eye level with that of your child and maintain face to face connection.';
-$lang['treatments_ol_1_li_12']='Always make the child feel that your are around him/her by talking and touching often.';
-$lang['treatments_ol_1_li_13']='When playing practice your children to wait till their turn comes. do not allow him/ her to be in their own world.always involve the child with some activities.';
-$lang['treatments_ol_1_li_14']='Place a moving toy in front of your face. When the child make eye contact with you give the toy to child.';
-$lang['treatments_ol_1_li_15']='Blow a balloon and leave it when the child brings attention on you.';
-$lang['treatments_ol_1_li_16']='Make small pieces of the most favourite food item of your child(ex: biscuit). Give only one piece at a time and give another piece only when the child looks at your face again.do the same for favourite drink items too.';
-$lang['treatments_ol_1_li_17']='Share the feelings with gestures ( Smiling, Clapping etc..)';
-$lang['treatments_ol_1_li_18']='Imitate the child’s speech & the activities and see the reaction of him/her.';
-$lang['treatments_ol_1_li_19']='When engaging in activities with the child raise or lower your voice as necessary to take  the maximum attention of the child. (ex:if attention is low raise your voice and if the child seems to be in panic lower your voice)';
-$lang['treatments_ol_1_li_20']='Ask the favour of your child for the activities ( What do you like to eat? etc… )';
-$lang['treatments_ol_1_li_21']='Make sure to keep your eye level with that of your child and to be very closer to your child when engaging in activities.';
-$lang['treatments_ol_1_li_22']='Increase the activities and conversations done with the child gradually.<b> Use simple words and small sentences.</b>';
-$lang['treatments_ol_1_li_23']='When the child is playing with a car you too bring a similar car and play, while playing exchange the car.use cars of different sizes,shapes and colour too in exchanging.';
-$lang['treatments_ol_1_li_24']='Lay with your child while exchanging the toys.(ex: Give your car to child and take childs car to you.)';
-$lang['treatments_ol_1_li_25']='If two people engage in playing with the child, one person should push the car from one side and the other one should assist the child pushing back the car.';
-$lang['treatments_ol_1_li_26']='Arrange a game or an activity where two people can play in turns,one by one.and practise the child to wait till his/her turn comes.';
-$lang['treatments_ol_1_li_27']='Use toys to imitate day today activities like cooking.';
-$lang['treatments_ol_1_li_28']='Let the child sit in front of you.blow soap bubbles and let the child too to blow soap bubbles.prick the bubbles with your finger and while it explodes make “pop” sound. Repeat the action again and again. If child doesn’t imitate you, take attention of your child towards your lips and encourage him/ her to make “pop” sound.';
+$lang['treatments_ol_1_li_1']='කුඩා සෙල්ලම් බඩුවක් ඔබේ ඇස් මට්ටමට තබා සෙලවීම හෝ ශබ්ද කිරීම. දරුවා ඔබේ මුහුණ දෙස බලනතුරු නැවත නැවත කල යුතුයි.
+ ';
+$lang['treatments_ol_1_li_2']='ඉහත ක්‍රියාකාරකම් විවිධ භාන්ඩ යොදාගෙන නැවත නැවත කල යුතුයි. උදා : මුහුණ දෙසැ බලන විට සබන් බෝල පිබිම ,වර්ණවත් සෙල්ලම් බඩු මුහුණට ලං කිරීම වැනි.
+';
+$lang['treatments_ol_1_li_3']='දරුවට යම් දෙයක් දීමට පෙර එය ඔබේ <>ඇස් මට්ටමට ගෙන</b> එය දෙන්නද කියා විමසන්න. දරුවා ඔබේ මුහුණ දෙසබලා එය ඉල්ලු සැනින් දෙන්න. උදා : බබාට බිස්කට් ඕනෙද?
+';
+$lang['treatments_ol_1_li_4']='සබන් බෝල පිබින්න, දරුවා මෙය පසුපස ගොස් විනෝද වෙයි, නැවත දරුවා ඔබේ මුහුණ දෙස බලා එය ඉල්ලන තුරු පිබිමෙන් වලකින්න.';
+$lang['treatments_ol_1_li_5']='ඔබේ මුහුණ රෙද්දකින් වසා දරුවා ඉදිරියට ගොස් එය ක්ෂණයකින් ඉවත් කර දරුවා පුදුමයට පත් කරන්න. දරුවාගේ අවදානය දිනා ගන්න. මෙය දරුවාටද පුරුදු කරන්න. නැවත නැවත කරන්න.
+';
+$lang['treatments_ol_1_li_6']='ඔබේ මුහුණ වෙස් මුහුනකින් වසා දරුවා ඔබ දෙසට යොමුකර ගන්න. දරුවා ඔබේ මුහුණ දෙස බැලූවිට එය ඉවත් කරන්න මෙය නැවත නැවත කරන්න.
+';
+$lang['treatments_ol_1_li_7']='ඔබේ නළල මත පොට්ටුවක් වැනි දිලිසෙන යමක් අලවා ගන්න. දරුවා එය දෙස බැලීමට සලස්වන්න.';
+$lang['treatments_ol_1_li_8']='දරුවාට වඩාත් ප්‍රිය කරන සෙල්ලම් බඩු ගැනීමට අපහසු නමුත් පෙනෙන ස්ථානයක තබන්න. ඒවා ඔබේ උදව් ඇතිව ඉල්ලා ගැනීමට සලස්වන්න.
+';
+$lang['treatments_ol_1_li_9']='දරුවාට කෑම වර්ග දෙකක් ඔබේ මුහුණ ඉදිරියෙන් අල්වන්න. උදා: යෝගට් සහ අයිස් ක්‍රීම් කප් .”මේකද ඕනේ..... මේකද ඕනේ.....” කියමින් දරුවා එකක් තෝරා ගැනීමට දිරි ගන්වන අතර අවධානය ඔබ කෙරෙහි රදවා ගන්න.
+';
+$lang['treatments_ol_1_li_10']='ඇගිල්ල පෙන්න යමක් ඉල්ලීමට දරුවා පුරුදු කරන්න. එය කලයුතු අන්දම අතින් අල්ල පෙන්වන්න.';
+$lang['treatments_ol_1_li_11']='දරුවා සමග සෙල්ලම් කරන විට ඔබත් පහත් වී දරුවාගේ ඇස් මට්ටමට ඔබේ ඇස් ගෙන ඒමෙන් හා මුහුණට මුහුණ බැලීමෙන් සම්බන්ධතාවය පවත්වා ගන්න.
+';
+$lang['treatments_ol_1_li_12']='සෑම විටම කථා කිරීමෙන් අත ගෑමෙන් වැනි ක්‍රියා මගින් ඔබ දරුවා සමග සිටින බව අගවන්න.
+';
+$lang['treatments_ol_1_li_13']='සෙල්ලම් කිරීමේදී තමාගේ වාරය එනතුරු සිටීමට හුරු කරන්න. ඔහුගේ ලෝකය රැදී සිටීමට ඉඩ නොදෙන්න. සෑම විටම දරුවාට හැකි පමණින් ක්‍රියාකාරකම් වලට සම්බන්ධ කර ගන්න.';
+$lang['treatments_ol_1_li_14']='චලනය වන සෙල්ලම් බඩුවක් වයින් කර ඔබ මුහුණ ඉදිරියෙන් අල්වන්න. දරුවා ඔබේ මුහුණ දෙස බැලූ විට එය ඔහුට දෙන්න.';
+$lang['treatments_ol_1_li_15']='බැලුමක් පුම්බා දරුවා ඔබ දෙසට යොමුකර එය අත හරින්න.නැවත නැවත කරන්න.';
+$lang['treatments_ol_1_li_16']='දරුවාට වඩාත් ප්‍රියකරන කෑමක් . උදා: විස්කොතුවක කුඩා කෑල්ලක් පමණක් කඩා දරුවාට දෙන්න. ඔබේ මුහුණ බැලූ විට තවත් කෑල්ලක දෙන්න. කැමති බිමක් මේක ආකාරයට කුඩා ප්‍රමාණ වලින් දෙන්න.
+';
+$lang['treatments_ol_1_li_17']='ඉරියව් වලින් දරුවා සමග සතුට බෙදා ගන්න. උදා: සිනා සීම, අත්පුඩි ගැසීම, “හොද පුතා ” කීම ඔළුව පිරිමැදීම වැනි.
+';
+$lang['treatments_ol_1_li_18']='දරුවා කථාවෙන් සහ ඉරියව් වලින් කරන කියන දේ අනුකරණය කර මදක් නැවතී ඒසදහා දරුවාගේ ප්‍රතිචාරය බලන්න.
+';
+$lang['treatments_ol_1_li_19']='දරුවා සමග ක්‍රියාකාරකම් කරන විට කටහඩ අවශ්‍ය පරිදී උස් පහත් කර දරුවාගේ උපරිම අවධානය ලබා ගන්න. උදා: අවධානය අඩු නම් උස් හඩ්න් දරුවා අමතන්න.දරුවා කලබල ලෙස හැසිරේ නම් පහත් හඩින් දරුවා අමතන්න.
+';
+$lang['treatments_ol_1_li_20']='ක්‍රියාකාරකම් සදහා ඉගි මගින් හෝ කතාවෙන් දරුවාගේ කැමැත්ත විමසන්න. උදා: මොනවාද කෑමට කැමැති යන වග.
+';
+$lang['treatments_ol_1_li_21']='දරුවා සමග ක්‍රියාකාරකම් කරන විට දරුවාට වඩාත් කිට්ටු වී දරුවාගේ ඇස් මට්ටමට තමාගේ ඇස් මට්ටම තබා ගැනීමට වග බලා ගන්න.
+';
+$lang['treatments_ol_1_li_22']='දරුවා සමග කරන ක්‍රියාකාරකම් හා සංවාද ක්‍රමක් ක්‍රමයෙන් වැඩි කරගන්න.<b> සරළ වචන හා කෙටි වාක්‍ය.</b>යොදා ගන්න.
+';
+$lang['treatments_ol_1_li_23']='දරුවා කාරයක් සමග සෙල්ලම් කරන විට ඊට සමාන කාරයක් ගෙන ඔබත් දරුවා සමග සෙල්ලම් කරන අතරතුර හුවමාරු කරගන්න. විවිධ පාට , හැඩ සහ ප්‍රමාණ වලින් යුත් වාහනද මෙසේ සෙල්ලමට යොදා ගන්න.';
+$lang['treatments_ol_1_li_24']='සෙල්ලම් බඩු හුවමාරු කර ගනිමින් දරුවා සමග සෙල්ලම් කරන්න. උදා: ඔබගේ කාරය දරුවාට දෙන්න. දරුවාගේ කාරය ඔබ ගන්න.
+';
+$lang['treatments_ol_1_li_25']='දරුවා සමග සෙල්ලම් කිරීමට දෙදෙනෙක් සහභාගී වේ නම් එක අයෙක් කාරය තල්ලු කරන්න. අනෙකා දරුවා සමග සිට ආපසු කාරය තල්ලු කිරීමට උදවු වන්න.';
+$lang['treatments_ol_1_li_26']='දෙදෙනෙකුට මාරුවෙන් මාරුවට කල හැකි ක්‍රියාවන් හෝ සෙල්ලමක් සකස් කරන්න. දරුවා තමාගේ වාරය එන තුරු බලා සිටීමට පුරුදු කරන්න.
+';
+$lang['treatments_ol_1_li_27']='ගෙදර දොරේ කෙරෙන ඉහුම් පිහුම් වැනි දෑ සෙල්ලම් බඩු යොදාගෙන අනුකරණය කරමින් දරුවා සමග සෙල්ලම් කරන්න.
+';
+$lang['treatments_ol_1_li_28']='දරුවා ඔබ ඉදිරියෙන් වාඩි කර ගන්න. සබන් බුබුළු පිබින්න දරුවාටත් පිබින්න සලස්වන්න. සබන් බුබුළු වලට ඇගිල්ලෙන් ඇන ඒවා පිපිරෙන විට “පොප් ” යන ශබ්දය නගන්න. නැවත නැවත එය කරන්න. දරුවාත් එය අනුකරණය නොකලොත් ඔබේ තොල් දෙසට දරුවාගේ අවධානය යොමුකරවා ශබ්ද කරන්න.      ';
 
 
         
