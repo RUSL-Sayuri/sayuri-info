@@ -27,7 +27,7 @@
                     <a href="<?php echo base_url('index.php/home/ta'); ?>" class="btn btn-default" >தமிழ்</a> 
                 </div>
                 <br><br><br><br><br><br>
-                <a href="#" class="btn btn-link pull-right">Sign In</a>
+                <a href="#" data-toggle="modal" data-target="#Sign_in" style="cursor:pointer" class="btn btn-default pull-right">Sign In</a>
             </div>
         </div>
     </div>

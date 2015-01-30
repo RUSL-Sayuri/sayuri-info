@@ -191,9 +191,9 @@ $this->load->view('partial/header');
                 <div class="modal-body">
                     <ul>
                         <li><a href="<?php echo base_url('index.php/register/family_member'); ?>"><?php echo $home_family_member; ?></a></li>
-                        <li><a href="<?php echo base_url('index.php/register/professional'); ?>"><?php echo $home_professional ; ?></a></li>
-                        <li><a href="<?php echo base_url('index.php/register/researcher'); ?>"><?php echo $home_researcher ; ?></a></li>
-                        <li><a href="<?php echo base_url('index.php/register/special_school'); ?>"><?php echo $home_special_school ; ?></a></li>
+                        <li><a href="<?php echo base_url('index.php/register/professional'); ?>"><?php echo $home_professional; ?></a></li>
+                        <li><a href="<?php echo base_url('index.php/register/researcher'); ?>"><?php echo $home_researcher; ?></a></li>
+                        <li><a href="<?php echo base_url('index.php/register/special_school'); ?>"><?php echo $home_special_school; ?></a></li>
                     </ul>
                 </div>
                 <div class="modal-footer">
@@ -203,7 +203,7 @@ $this->load->view('partial/header');
         </div>
     </div>
     <!-- Model End Join Us-->
-    
+
     
     <?php if ($email_subscribe) {
         ?>
@@ -241,5 +241,5 @@ $this->load->view('partial/header');
     <script type="text/javascript" src="<?php echo base_url('assests/js/jquery.validate.js'); ?>"></script>
     <script type="text/javascript" src="<?php echo base_url('assests/js/additional-methods.js'); ?>"></script>
     <script type="text/javascript">
-        $('#form_subscribe_email').validate();
+            $('#form_subscribe_email').validate();
     </script>

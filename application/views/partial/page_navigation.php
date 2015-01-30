@@ -42,7 +42,7 @@ $this->lang->load('page_navigation', $language);
                         <a href="#"><?php echo $this->lang->line('navbar_learning_kits'); ?></a>
                     </li>
                     <li>
-                        <a href="<?php echo base_url('index.php/article_archive'); ?>"><?php echo $this->lang->line('article_archive'); ?></a>
+                        <a href="<?php echo base_url('index.php/article_archive'); ?>"><?php echo $this->lang->line('navbar_article_archive'); ?></a>
                     </li>
                     <li>
                         <a href="#"><?php echo $this->lang->line('navbar_sucess_stories'); ?></a>

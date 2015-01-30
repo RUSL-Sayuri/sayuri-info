@@ -8,3 +8,4 @@
 
 $lang['header_page_title']="Sayuri";
 $lang['header_page_subtitle']="Information Portal on Autism Spectum Disorder";
+$lang['header_sign_in'] = "Sign In";
