@@ -79,6 +79,11 @@ class Home extends CI_Controller {
         $this->index('sinhala');
     }
 
+     public function ta() {
+        $this->set_langugage('tamil');
+        $this->index('tamil');
+    }
+    
     function set_langugage($language = "english") {
         $this->load->helper('cookie');
         $cookie = array(
