@@ -1,0 +1,1 @@
+<img src="<?php echo site_url('/article/getImage/10'); ?>"/>

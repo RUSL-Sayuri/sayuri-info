@@ -16,9 +16,9 @@ class Article_archive extends CI_Controller{
         $language = $this->input->cookie('lang');
         $this->lang->load('article_archive', $language);
         $this->load->model('articles');
-        $newspapers = $this->articles->get_published_articles_by_type('newspaper');
-        $researchPapers = $this->articles->get_published_articles_by_type('newspaper');
-        $newspapers = $this->articles->get_published_articles_by_type('newspaper');
+//        $newspapers = $this->articles->get_published_articles_by_type('newspaper');
+//        $researchPapers = $this->articles->get_published_articles_by_type('newspaper');
+//        $newspapers = $this->articles->get_published_articles_by_type('newspaper');
         
         $view_data = array(
            'title_1' => $this->lang->line('article_archive_title_1'),
@@ -39,6 +39,9 @@ class Article_archive extends CI_Controller{
             'researchPapers'=>$this->articles->get_published_articles_by_type('research'),
             
         );
+        
+//        print_r($view_data['newspapers']);
+//        die();
         
         $this->load->view('article_archive',$view_data);
     }
