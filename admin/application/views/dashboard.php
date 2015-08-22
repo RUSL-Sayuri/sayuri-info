@@ -26,14 +26,15 @@ $this->load->helper(array('htmlgenerator'));
             <!-- breadcrumb -->
             <ol class="breadcrumb">
                 <?php
-                $load = sys_getloadavg();
-                $tot = 0;
-                $i = 0;
-                foreach ($load as $key => $value) {
-                    $tot += $value;
-                    $i++;
-                }
-                $avg = ceil($tot / $i);
+//                $load = sys_getloadavg();
+//                $tot = 0;
+//                $i = 0;
+//                foreach ($load as $key => $value) {
+//                    $tot += $value;
+//                    $i++;
+//                }
+//                $avg = ceil($tot / $i);
+                $avg=5.6
                 //print_r($load);
                 ?> 
                 <li>Home</li><li>Dashboard</li>
