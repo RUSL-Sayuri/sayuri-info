@@ -21,10 +21,10 @@ $this->load->view('partial/header');
             foreach ($newspapers->result() as $article) {
                 ?>
                 <div class="row" style="margin-bottom: 15px">
-                    <div class="col-md-6 column">
-                        <img class="img-responsive img-rounded" src="<?php echo base_url('admin/assests/img/article') . "/". $article->id . "." . $article->preview ?>" />
-                    </div>
-                    <div class="col-md-6 column">
+<!--                    <div class="col-md-6 column">
+                        <img class="img-responsive img-rounded" src="<?php// echo base_url('admin/assests/img/article') . "/". $article->id . "." . $article->preview ?>" />
+                    </div>-->
+                    <div class="col-md-12 column">
                         <h4>
                             <?php echo $article->title; ?>
                         </h4>
@@ -45,10 +45,10 @@ $this->load->view('partial/header');
             foreach ($webArticles->result() as $article) {
                 ?>
                 <div class="row" style="margin-bottom: 15px">
-                    <div class="col-md-6 column">
-                        <img class="img-responsive img-rounded" src="<?php echo base_url('admin/assests/img/article') . "/". $article->id . "." . $article->preview ?>" />
-                    </div>
-                    <div class="col-md-6 column">
+<!--                    <div class="col-md-6 column">
+                        <img class="img-responsive img-rounded" src="<?php //echo base_url('admin/assests/img/article') . "/". $article->id . "." . $article->preview ?>" />
+                    </div>-->
+                    <div class="col-md-12 column">
                         <h4>
                             <?php echo $article->title; ?>
                         </h4>
@@ -69,10 +69,10 @@ $this->load->view('partial/header');
             foreach ($researchPapers->result() as $article) {
                 ?>
                 <div class="row" style="margin-bottom: 15px">
-                    <div class="col-md-6 column">
-                        <img class="img-responsive img-rounded" src="<?php echo base_url('admin/assests/img/article') . "/". $article->id . "." . $article->preview ?>" />
-                    </div>
-                    <div class="col-md-6 column">
+<!--                    <div class="col-md-6 column">
+                        <img class="img-responsive img-rounded" src="<?php //echo base_url('admin/assests/img/article') . "/". $article->id . "." . $article->preview ?>" />
+                    </div>-->
+                    <div class="col-md-12 column">
                         <h4>
                             <?php echo $article->title; ?>
                         </h4>
