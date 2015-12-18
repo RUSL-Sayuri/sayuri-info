@@ -87,7 +87,7 @@
 
         <!-- logout button -->
         <div id="logout" class="btn-header transparent pull-right">
-            <span> <a href="user/signout" title="Sign Out"><i class="fa fa-sign-out"></i></a> </span>
+            <span> <a href="<?= base_url('index.php/user/signout')?>" title="Sign Out"><i class="fa fa-sign-out"></i></a> </span>
         </div>
         <!-- end logout button -->
 
