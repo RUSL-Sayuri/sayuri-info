@@ -32,7 +32,7 @@ $this->load->view('partial/header');
                     </ul>
                 </div> 
                 <div class="well well-sm">
-                    <img  class="center-block img-rounded img-responsive" style="cursor: pointer;" src="<?php echo base_url('assests/images/info-portal/app_logo_png.png'); ?>"/>
+                    <a href="<?= base_url('index.php/apps') ?>"><img  class="center-block img-rounded img-responsive" style="cursor: pointer;" src="<?php echo base_url('assests/images/info-portal/app_logo_png.png'); ?>"/></a>
 
                 </div>
                 <div class="well well-sm">

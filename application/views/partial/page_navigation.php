@@ -53,10 +53,7 @@ $this->lang->load('page_navigation', $language);
                 </ul>
             </li>
             <li>
-                <a href="#"><?php echo $this->lang->line('navbar_app_center'); ?></a>
-            </li>
-            <li>
-                <a href="#"><?php echo $this->lang->line('navbar_join_us'); ?></a>
+                <a href="<?php echo base_url('index.php/apps'); ?>"><?php echo $this->lang->line('navbar_app_center'); ?></a>
             </li>
             <li>
                 <a href="<?php echo base_url('index.php/about_us'); ?>"><?php echo $this->lang->line('navbar_about_us'); ?></a>

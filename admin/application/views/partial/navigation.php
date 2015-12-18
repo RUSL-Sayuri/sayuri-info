@@ -33,7 +33,10 @@
                 <a href="<?= base_url('index.php') ?>/user" title="Dashboard"><i class="fa fa-lg fa-fw fa-home"></i> <span class="menu-item-parent">Dashboard</span></a>
             </li>
             <li >
-                <a href="<?= base_url('index.php') ?>/article" title="Article"><i class="fa fa-lg fa-fw fa-home"></i> <span class="menu-item-parent">Article</span></a>
+                <a href="<?= base_url('index.php') ?>/article" title="Article"><i class="fa fa-lg fa-fw fa-paperclip"></i> <span class="menu-item-parent">Article</span></a>
+            </li>
+            <li >
+                <a href="<?= base_url('index.php') ?>/emails" title="Emails"><i class="fa fa-lg fa-fw fa-envelope"></i> <span class="menu-item-parent">Emails</span></a>
             </li>
 <!--            <li>
                 <a href="inbox.html"><i class="fa fa-lg fa-fw fa-inbox"></i> <span class="menu-item-parent">Inbox</span><span class="badge pull-right inbox-badge">14</span></a>

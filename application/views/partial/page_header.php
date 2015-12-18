@@ -1,7 +1,7 @@
 <div class="row clearfix">
     <div class="col-md-12 column">
         <div class="row clearfix">
-            <div class="col-md-2 column">
+            <div class="col-sm-2 column">
                 <img class="img-responsive" alt="140x140" src="<?php echo base_url('assests/images/Sayuri_Logo_400_400.png'); ?>" />
             </div>
             <div class="col-md-8 column">
@@ -27,7 +27,7 @@
                     <a href="<?php echo base_url('index.php/home/ta'); ?>" class="btn btn-default" >தமிழ்</a> 
                 </div>
                 <br><br><br><br><br><br>
-                <a href="#" data-toggle="modal" data-target="#Sign_in" style="cursor:pointer" class="btn btn-default pull-right">Sign In</a>
+                <a href="http://sayuri.azurewebsites.net" style="cursor:pointer" class="btn btn-default pull-right">Sign In</a>
             </div>
         </div>
     </div>

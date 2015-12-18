@@ -43,6 +43,9 @@ function navigation($username,$active_page='dashboard') {
                 <li <?php echo ($active_page=='article' ? 'class="active"' : 'class=""'); ?>>
                     <a href="article" title="Articles"><i class="fa fa-lg fa-fw fa-home"></i> <span class="menu-item-parent">Articles</span></a>
                 </li>
+                <li <?php echo ($active_page=='emails' ? 'class="active"' : 'class=""'); ?>>
+                    <a href="article" title="Articles"><i class="fa fa-lg fa-fw fa-home"></i> <span class="menu-item-parent">Articles</span></a>
+                </li>
                 <!--            <li>
                                 <a href="inbox.html"><i class="fa fa-lg fa-fw fa-inbox"></i> <span class="menu-item-parent">Inbox</span><span class="badge pull-right inbox-badge">14</span></a>
                             </li>

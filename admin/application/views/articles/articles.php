@@ -12,7 +12,7 @@ $this->load->helper(array('htmlgenerator', 'form'));
 
     <!-- Left panel : Navigation area -->
     <!-- Note: This width of the aside area can be adjusted through LESS variables -->
-    <?php navigation($this->session->userdata('username'), 'article'); ?>
+    <?php $this->load->view('partial/navigation'); ?>
     <!-- END NAVIGATION -->
 
     <!-- MAIN PANEL -->
