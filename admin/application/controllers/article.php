@@ -11,7 +11,6 @@ if (!defined('BASEPATH'))
 /**
  * Description of article
  *
- * @author thejan rajapakshe <coder [dot] clix [at] gmail [dot] com
  */
 class Article extends CI_Controller {
 
@@ -82,7 +81,7 @@ class Article extends CI_Controller {
                 $error = array('error' => $this->upload->display_errors());
                 $this->load->view('articles/articles', $error);
             }
-            $this->index(array('success' => 'Article added successfully'));
+            redirect('/article');
         }
     }
 

@@ -44,6 +44,8 @@ $this->load->helper(array('form', 'bootstrapForm', 'htmlgenerator'));
         </div>
 
 
+</form>
+
     </div>
 </body>
 

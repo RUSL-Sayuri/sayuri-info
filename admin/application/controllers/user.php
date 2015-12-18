@@ -11,7 +11,6 @@ if (!defined('BASEPATH'))
 /**
  * Description of user
  *
- * @author thejan rajapakshe <coder [dot] clix [at] gmail [dot] com
  */
 class User extends CI_Controller {
 

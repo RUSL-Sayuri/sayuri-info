@@ -11,7 +11,6 @@ if (!defined('BASEPATH'))
 /**
  * Description of dashboard
  *
- * @author thejan rajapakshe <coder [dot] clix [at] gmail [dot] com
  */
 class dashboard extends CI_Controller {
 

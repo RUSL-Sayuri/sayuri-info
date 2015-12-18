@@ -8,7 +8,6 @@
 /**
  * Description of test_pages
  *
- * @author jayan_000
  */
 class Test_pages extends CI_Controller {
     public function open_page($page_id) {
